@@ -1,30 +1,61 @@
 import React from "react";
-import {Navbar as BSNavbar, Container, Nav, NavDropdown, Image} from "react-bootstrap";
-import "./Navbar.css"
+import {
+  Navbar as BSNavbar,
+  Container,
+  Nav,
+  NavDropdown,
+  Image,
+} from "react-bootstrap";
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <BSNavbar bg="light" expand="lg">
       <Container>
-        <BSNavbar.Brand href="#home">
-            <Image src="/minasschoolimg.jpg" alt="mina-logo" fluid />
+        <BSNavbar.Brand href="/">
+          <Image src="/minasschoolimg.jpg" alt="mina-logo" fluid />
         </BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BSNavbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="/">Home</Nav.Link>
+            <NavDropdown title="School Curricula" id="curricula-dropdown">
+              <NavDropdown.Item href="/math">Math</NavDropdown.Item>
+              <NavDropdown.Item href="/science">
+                Science
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="/social-studies">Social Studies</NavDropdown.Item>
+              <NavDropdown.Item href="/fitness">Fitness</NavDropdown.Item>
+              <NavDropdown.Item href="/art">Art</NavDropdown.Item>
+              <NavDropdown.Item href="/technology">Technology</NavDropdown.Item>
+              {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
+              </NavDropdown.Item> */}
+            </NavDropdown>
+            <Nav.Link href="/contact-form">Enrollment</Nav.Link>
+            <NavDropdown title="Programs" id="programs-dropdown">
+              <NavDropdown.Item href="/after-school">After School</NavDropdown.Item>
+              <NavDropdown.Item href="/summer-camps">
+                Summer Camps
               </NavDropdown.Item>
             </NavDropdown>
+            <NavDropdown title="Information" id="information-dropdown">
+              <NavDropdown.Item href="/school-schedule">School Schedule</NavDropdown.Item>
+              <NavDropdown.Item href="/brochure">
+                Brochure
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/policies">
+                Policies
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="About Us" id="about-us-dropdown">
+              <NavDropdown.Item href="/staff">Staff</NavDropdown.Item>
+              <NavDropdown.Item href="/philosophies">
+                Philosophies
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/contact-form">Contact Us</Nav.Link>
           </Nav>
         </BSNavbar.Collapse>
       </Container>
