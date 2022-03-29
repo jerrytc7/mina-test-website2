@@ -1,4 +1,5 @@
 import React from "react";
+import { Carousel } from "react-bootstrap";
 import "./Home.css";
 
 function Home() {
@@ -50,6 +51,69 @@ function Home() {
       </div>
       <div>
         <h3>Testimonials</h3>
+        <div>
+          <Carousel variant="dark">
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="greybackground.avif"
+                alt="First slide"
+                height="250px"
+              />
+              <Carousel.Caption>
+                <h5>Mary B.</h5>
+                <p>
+                  "What a great place for our kindergarten girl!! This school
+                  ... [has] been able to tailor a program where she learns as
+                  much as she wants and is not hindered by a teaching protocol
+                  for her generalized age group. What amazes us is how she is
+                  already doing math and how her writing has improved in just 4
+                  wks!! She is so excited to start reading and loves learning!!!
+                  Perfect environment for learning in a loving & fun
+                  atmosphere!!!!"
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="greybackground.avif"
+                alt="Second slide"
+                height="250px"
+              />
+              <Carousel.Caption>
+                <h5>Lisa K.</h5>
+                <p>
+                  "Hi Miss Mina! I just wanted to say thank you for being such an
+                  amazing teacher and helping me learn to be smart. You have
+                  helped me become who i am today and you have made me
+                  intelligent. so i thank you for being such an amazing
+                  teacher!😊"
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="greybackground.avif"
+                alt="Third slide"
+                height="250px"
+              />
+              <Carousel.Caption>
+                <h5>Dr. Mary Backcock</h5>
+                <p>
+                  "Our kindergartener has learned so much this year! The teachers
+                  give a personalized program for each child. Imagine an
+                  environment that helps a child learn in a caring, holistic
+                  environment. Our child loves going to school ! Since the fall,
+                  she has learned addition, reading, writing and she loves doing
+                  her "work" at home without being asked. Amazing system and
+                  teaching methods!"
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
         <p>
           "What a great place for our kindergarten girl!! This school ... [has]
           been able to tailor a program where she learns as much as she wants
@@ -233,7 +297,7 @@ function Home() {
           a child learn in a caring, holistic environment. Our child loves going
           to school ! Since the fall, she has learned addition, reading, writing
           and she loves doing her "work" at home without being asked. Amazing
-          system and teaching methods!
+          system and teaching methods! -Dr. Mary Babcock
         </p>
       </div>
     </div>
