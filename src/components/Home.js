@@ -132,17 +132,20 @@ function Home() {
                 className="d-block w-100"
                 src="greybackground.avif"
                 alt="Fourth slide"
-                height="275px"
+                height="400px"
               />
               <Carousel.Caption>
-                <h5>Lisa K.</h5>
-                <h6>Former Student</h6>
+                <h5>Naeeme M</h5>
+                <h6>Parent</h6>
                 <p>
-                  "Hi Miss Mina! I just wanted to say thank you for being such an
-                  amazing teacher and helping me learn to be smart. You have
-                  helped me become who i am today and you have made me
-                  intelligent. so i thank you for being such an amazing
-                  teacher!😊"
+                  "The student to teacher ratio at Mina's Sci-Math Elementary, coupled
+                  with the teaching methods that are incorporated with the curriculum,
+                  are two of the many reasons why my nephew has started to love school
+                  and studying. Because he feels more confident and responsible now, he
+                  is beginning to make tremendous strides, especially in Mathematics &
+                  Organized writing. Mina's Sci-Math Elementary has been extremely
+                  effective and I vehemently recommend it to those who live in Great
+                  Falls, McLean, Vienna, Reston, and Herndon."
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -172,20 +175,17 @@ function Home() {
                 className="d-block w-100"
                 src="greybackground.avif"
                 alt="Sixth slide"
-                height="400px"
+                height="275px"
               />
               <Carousel.Caption>
-                <h5>Naeeme M</h5>
-                <h6>Parent</h6>
+                <h5>Lisa K.</h5>
+                <h6>Former Student</h6>
                 <p>
-                  "The student to teacher ratio at Mina's Sci-Math Elementary, coupled
-                  with the teaching methods that are incorporated with the curriculum,
-                  are two of the many reasons why my nephew has started to love school
-                  and studying. Because he feels more confident and responsible now, he
-                  is beginning to make tremendous strides, especially in Mathematics &
-                  Organized writing. Mina's Sci-Math Elementary has been extremely
-                  effective and I vehemently recommend it to those who live in Great
-                  Falls, McLean, Vienna, Reston, and Herndon."
+                  "Hi Miss Mina! I just wanted to say thank you for being such an
+                  amazing teacher and helping me learn to be smart. You have
+                  helped me become who i am today and you have made me
+                  intelligent. so i thank you for being such an amazing
+                  teacher!😊"
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
