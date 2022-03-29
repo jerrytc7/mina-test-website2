@@ -29,6 +29,9 @@ function Home() {
             <a href="/math">Math</a>
           </li>
           <li>
+            <a href="/language-arts">Language Arts</a>
+          </li>
+          <li>
             <a href="/science">Science</a>
           </li>
           <li>
