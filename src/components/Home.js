@@ -4,7 +4,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <div
         className="hero-image"
         style={{
@@ -16,61 +16,68 @@ function Home() {
       >
         <h3 className="mina-title">Mina's School of Great Falls</h3>
       </div>
-      <div>
-        <h3>What We Do</h3>
-        <p>
-          At Mina's School, we concentrate on the core math and science
-          subjects. However, there is also a strong emphasis on the other
-          traditional basics: language arts (reading, writing, and grammar), and
-          civics (history and geography). We also weave into each school day
-          Exercise, Art (drawing and/or painting), and/or Technology (computer
-          technology and "shop"). To find out more about each subject area
-          offered, click on the subject below:
-          <li>
-            <a href="/math">Math</a>
-          </li>
-          <li>
-            <a href="/language-arts">Language Arts</a>
-          </li>
-          <li>
-            <a href="/science">Science</a>
-          </li>
-          <li>
-            <a href="/social-studies">Social Studies</a>
-          </li>
-          <li>
-            <a href="/fitness">Fitness</a>
-          </li>
-          <li>
-            <a href="/art">Art</a>
-          </li>
-          <li>
-            <a href="/technology">Technology</a>
-          </li>
-        </p>
-      </div>
-      <div>
-        <h3>Testimonials</h3>
-        <div>
+      <div className="container">
+        <div className="what-we-do-container">
+          <h3>What We Do</h3>
+          <p>
+            At Mina's School, we concentrate on the core math and science
+            subjects. However, there is also a strong emphasis on the other
+            traditional basics: language arts (reading, writing, and grammar), and
+            civics (history and geography). We also weave into each school day
+            Exercise, Art (drawing and/or painting), and/or Technology (computer
+            technology and "shop"). To find out more about each subject area
+            offered, click on the subject below:
+            <li>
+              <a href="/math">Math</a>
+            </li>
+            <li>
+              <a href="/language-arts">Language Arts</a>
+            </li>
+            <li>
+              <a href="/science">Science</a>
+            </li>
+            <li>
+              <a href="/social-studies">Social Studies</a>
+            </li>
+            <li>
+              <a href="/fitness">Fitness</a>
+            </li>
+            <li>
+              <a href="/art">Art</a>
+            </li>
+            <li>
+              <a href="/technology">Technology</a>
+            </li>
+          </p>
+        </div>
+        <div className="testimonial-container">
+          <h3>Testimonials</h3>
           <Carousel variant="dark">
             <Carousel.Item>
               <img
                 className="d-block w-100"
                 src="greybackground.avif"
                 alt="First slide"
-                height="250px"
+                height="600px"
               />
               <Carousel.Caption>
-                <h5>Mary B.</h5>
+                <h5>Chuck W.</h5>
+                <h6>Parent</h6>
                 <p>
-                  "What a great place for our kindergarten girl!! This school
-                  ... [has] been able to tailor a program where she learns as
-                  much as she wants and is not hindered by a teaching protocol
-                  for her generalized age group. What amazes us is how she is
-                  already doing math and how her writing has improved in just 4
-                  wks!! She is so excited to start reading and loves learning!!!
-                  Perfect environment for learning in a loving & fun
-                  atmosphere!!!!"
+                  Since enrolling our son in Mina's Sci-Math school, we have been
+                  witnessing a miracle unfold before our eyes. Like most parents, we
+                  wished for our son to be inspired and to find value in his school
+                  work. Large classrooms and the "one size fits all" method of public
+                  education, was simply not working. As a result, we decided to seek an
+                  alternative. Immediately, it seemed everyone we queried offered RAVE
+                  reviews about Miss Mina. Shortly after, we decided to enroll our
+                  child. Miss Mina’s teaching style along with her warm and nurturing
+                  spirit resulted in a transformation of our son's attitude toward all
+                  of his subjects including: reading, writing, math, science, history
+                  and more. His self-confidence continuous to escalate and he is
+                  motivated to complete his assignments from a position of inspiration.
+                  Miss Mina and her staff are terrific! Our only wish is that we had
+                  started with Miss Mina sooner!!
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -79,10 +86,57 @@ function Home() {
                 className="d-block w-100"
                 src="greybackground.avif"
                 alt="Second slide"
-                height="250px"
+                height="425px"
+              />
+              <Carousel.Caption>
+                <h5>Paul B.</h5>
+                <h6>Parent</h6>
+                <p>
+                  This school is truly amazing! My son has attended for the last couple
+                  of years and has progressed in all respects, but especially in science
+                  and math. He now performs at a level in math more than two grade
+                  levels above where he would in public school. I have always believed
+                  in the philosophy of investing early and often; I am convinced that
+                  sending our son to Mina's school has been an investment that will
+                  benefit my son for his entire life. If you live near Great Falls and
+                  want to make a special investment in your child, you will be hard
+                  pressed to find anything better.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="greybackground.avif"
+                alt="Third slide"
+                height="425px"
+              />
+              <Carousel.Caption>
+                <h5>Nahid M.</h5>
+                <h6>Parent</h6>
+                <p>
+                  My son attended Mina's Sci-Math Private School in Great Falls for two
+                  years. Prior to attending this school his organizational skills,
+                  grammar, mathematical concepts, reading comprehension, and science
+                  were all very weak. He has since made dramatic improvements in all of
+                  these areas. He can now organize his thoughts easily and process
+                  information in mathematics and other core subjects. Enrolling him in
+                  this private school has been the best investment that I made for his
+                  life, and I am so happy that my son is now prepared for future
+                  academic challenges.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="greybackground.avif"
+                alt="Fourth slide"
+                height="275px"
               />
               <Carousel.Caption>
                 <h5>Lisa K.</h5>
+                <h6>Former Student</h6>
                 <p>
                   "Hi Miss Mina! I just wanted to say thank you for being such an
                   amazing teacher and helping me learn to be smart. You have
@@ -96,11 +150,12 @@ function Home() {
               <img
                 className="d-block w-100"
                 src="greybackground.avif"
-                alt="Third slide"
-                height="250px"
+                alt="Fifth slide"
+                height="330px"
               />
               <Carousel.Caption>
-                <h5>Dr. Mary Backcock</h5>
+                <h5>Dr. Mary B.</h5>
+                <h6>Parent</h6>
                 <p>
                   "Our kindergartener has learned so much this year! The teachers
                   give a personalized program for each child. Imagine an
@@ -112,9 +167,32 @@ function Home() {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="greybackground.avif"
+                alt="Sixth slide"
+                height="400px"
+              />
+              <Carousel.Caption>
+                <h5>Naeeme M</h5>
+                <h6>Parent</h6>
+                <p>
+                  "The student to teacher ratio at Mina's Sci-Math Elementary, coupled
+                  with the teaching methods that are incorporated with the curriculum,
+                  are two of the many reasons why my nephew has started to love school
+                  and studying. Because he feels more confident and responsible now, he
+                  is beginning to make tremendous strides, especially in Mathematics &
+                  Organized writing. Mina's Sci-Math Elementary has been extremely
+                  effective and I vehemently recommend it to those who live in Great
+                  Falls, McLean, Vienna, Reston, and Herndon."
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
           </Carousel>
         </div>
-        <p>
+      </div>
+      {/* <p>
           "What a great place for our kindergarten girl!! This school ... [has]
           been able to tailor a program where she learns as much as she wants
           and is not hindered by a teaching protocol for her generalized age
@@ -237,7 +315,7 @@ function Home() {
           and more. His self-confidence continuous to escalate and he is
           motivated to complete his assignments from a position of inspiration.
           Miss Mina and her staff are terrific! Our only wish is that we had
-          started with Miss Mina sooner!!
+          started with Miss Mina sooner!! - Chuck Wray
         </p>
         <p>
           The student to teacher ratio at Mina's Sci-Math Elementary, coupled
@@ -247,7 +325,7 @@ function Home() {
           is beginning to make tremendous strides, especially in Mathematics &
           Organized writing. Mina's Sci-Math Elementary has been extremely
           effective and I vehemently recommend it to those who live in Great
-          Falls, McLean, Vienna, Reston, and Herndon.
+          Falls, McLean, Vienna, Reston, and Herndon. - Naeeme Mohammadi
         </p>
         <p>
           I know the director, and the long life teacher Mina for so many years.
@@ -261,7 +339,7 @@ function Home() {
           confidence about their own abilities to learn. I am happy that Mina
           has her own private school and uses her creative methods to teach.
           This is a great opportunity for those who live close by to take
-          advantage of Mina's Sci-Math Elementary School, the Great Falls.
+          advantage of Mina's Sci-Math Elementary School, the Great Falls. - Mary Haas
         </p>
         <p>
           There is a unique and effective private school in the heart of Great
@@ -277,10 +355,10 @@ function Home() {
           excel in high school and college. The encouragement, discipline and
           systematic approach to fully understanding all subjects motivated my
           daughter throughout her academic years and now she has been accepted
-          to medical school in the fall.
+          to medical school in the fall. - Theresa Cunningham
         </p>
         <p>
-          Ms. Mina and Mr. Konder have established a wonderful school that
+          Ms. Mina and Mr. Kondner have established a wonderful school that
           rivals any private school in our area. I looked at several schools
           before deciding. Having grown up in private schools, I realize the
           importance of small student to teacher ratio and personalized
@@ -289,7 +367,7 @@ function Home() {
           that is provided can't be overstated! It is exemplary. The families
           are involved and the children are empowered to take accountability for
           their own work. Love Ms. Mina, Mr. Kondor and all the faculty there!
-          Sharon Brigner
+          - Sharon Brigner
         </p>
         <p>
           Our kindergartener has learned so much this year! The teachers give a
@@ -298,8 +376,8 @@ function Home() {
           to school ! Since the fall, she has learned addition, reading, writing
           and she loves doing her "work" at home without being asked. Amazing
           system and teaching methods! -Dr. Mary Babcock
-        </p>
-      </div>
+        </p> */}
+
     </div>
   );
 }
