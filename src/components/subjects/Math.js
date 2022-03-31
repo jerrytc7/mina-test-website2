@@ -1,4 +1,5 @@
 import React from "react";
+import "./Math.css"
 
 function Math() {
   return (
@@ -7,47 +8,51 @@ function Math() {
         <h3>Mathematics</h3>
       </header>
       <body>
-        <p>
-          The method of teaching math we use is one I developed over decades of
-          working successfully with students possessing a wide range of skills.
-          Every student attending our school will advance to a high level of
-          understanding using this methodology. If your child is weak in math it
-          is not because they cannot learn the material, I believe it is due to
-          poor teaching methods. Our kindergartners by third grade typically
-          have completed all elementary mathematics in depth. Basic skills are
-          taught in depth with 90 minutes of math class over the course of each
-          school day. Students develop a strong foundation in math before
-          learning more advanced skills. Only after a student masters each step,
-          does he/she move to the next level. The pace and complexity of the
-          math program is adjusted to the individual child. No student is forced
-          into a one-size-fits-all environment as is often found in larger
-          classroom settings. ​ My concept is simple and effective: all critical
-          knowledge must be learned before advancing from addition and
-          subtraction to multiplication and division. Too often children are
-          passed to the next grade without the requisite skills to handle more
-          advanced math topics. At our school every student, at every level, is
-          provided the intellectual tools needed to do well in mathematics. No
-          one is left behind and there is no upper limit on learning. It is no
-          surprise that a lot of our parents have told me we perform miracles as
-          their children not only do exceedingly well in math but also have
-          grown to love the subject! Regular use of hands on learning tools at
-          all levels, incorporating place-value blocks, physical counting
-          models, and other manipulatives into the program helps students to
-          develop a concrete understanding of abstract numbers and concepts that
-          will last a lifetime. As the children move through the lesson
-          material, previous topics are reviewed to reinforce concepts and to
-          prepare them for more advanced mathematics. In each “packet,” students
-          have numerous opportunities to apply what they have studied using
-          real-world problems. The pace is determined by the ability of the
-          individual child to absorb and use their skills, not by chronological
-          age or an assigned grade level. The result is a math friendly
-          environment in which children as young as first grade enjoy adding or
-          subtracting 4-digit numbers in their head with ease! Your child will
-          excel in math because all of our teachers know how to teach students
-          to think critically and with the confidence and desire to continue
-          tackling higher level math successfully in high school, college and
-          beyond. Ms. Mina Kondner Headmaster
-        </p>
+        <div className="math-intro-container">
+          <p>
+            The method of teaching math we use is one I developed over decades
+            of working successfully with students possessing a wide range of
+            skills. Every student attending our school will advance to a high
+            level of understanding using this methodology. If your child is weak
+            in math it is not because they cannot learn the material, I believe
+            it is due to poor teaching methods. Our kindergartners by third
+            grade typically have completed all elementary mathematics in depth.
+            Basic skills are taught in depth with 90 minutes of math class over
+            the course of each school day. Students develop a strong foundation
+            in math before learning more advanced skills. Only after a student
+            masters each step, does he/she move to the next level. The pace and
+            complexity of the math program is adjusted to the individual child.
+            No student is forced into a one-size-fits-all environment as is
+            often found in larger classroom settings. ​ My concept is simple and
+            effective: all critical knowledge must be learned before advancing
+            from addition and subtraction to multiplication and division. Too
+            often children are passed to the next grade without the requisite
+            skills to handle more advanced math topics. At our school every
+            student, at every level, is provided the intellectual tools needed
+            to do well in mathematics. No one is left behind and there is no
+            upper limit on learning. It is no surprise that a lot of our parents
+            have told me we perform miracles as their children not only do
+            exceedingly well in math but also have grown to love the subject!
+            Regular use of hands on learning tools at all levels, incorporating
+            place-value blocks, physical counting models, and other
+            manipulatives into the program helps students to develop a concrete
+            understanding of abstract numbers and concepts that will last a
+            lifetime. As the children move through the lesson material, previous
+            topics are reviewed to reinforce concepts and to prepare them for
+            more advanced mathematics. In each “packet,” students have numerous
+            opportunities to apply what they have studied using real-world
+            problems. The pace is determined by the ability of the individual
+            child to absorb and use their skills, not by chronological age or an
+            assigned grade level. The result is a math friendly environment in
+            which children as young as first grade enjoy adding or subtracting
+            4-digit numbers in their head with ease! Your child will excel in
+            math because all of our teachers know how to teach students to think
+            critically and with the confidence and desire to continue tackling
+            higher level math successfully in high school, college and beyond.
+            Ms. Mina Kondner Headmaster
+          </p>
+          <img src="math-img-1.jpg" alt="happy-math-img"/>
+        </div>
         <h4>Addition</h4>
         <p>
           In the addition lessons, the students use manipulatives such as ten
