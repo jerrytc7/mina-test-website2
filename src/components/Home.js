@@ -1,49 +1,62 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Testimonials from "./Testimonials";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Home() {
   return (
     <div className="home">
-      <h3 className="mina-title">Mina's School of Great Falls</h3>
-      <div className="hero-image"></div>
-      <div className="container">
-        <div className="what-we-do-container">
-          <h3>What We Do</h3>
-          <p>
-            At Mina's School, we concentrate on the core math and science
-            subjects. However, there is also a strong emphasis on the other
-            traditional basics: language arts (reading, writing, and grammar),
-            and civics (history and geography). We also weave into each school
-            day Exercise, Art (drawing and/or painting), and/or Technology
-            (computer technology and "shop"). To find out more about each
-            subject area offered, click on the subject below:
-            <li>
-              {/* <a href="/math">Math</a> */}
-              <Link to="/math">Math</Link>
-            </li>
-            <li>
-              <a href="/language-arts">Language Arts</a>
-            </li>
-            <li>
-              <a href="/science">Science</a>
-            </li>
-            <li>
-              <a href="/social-studies">Social Studies</a>
-            </li>
-            <li>
-              <a href="/fitness">Fitness</a>
-            </li>
-            <li>
-              <a href="/art">Art</a>
-            </li>
-            <li>
-              <a href="/technology">Technology</a>
-            </li>
-          </p>
-        </div>
-        <Testimonials />
-      </div>
+      <Container>
+        <Row>
+          <Col>
+            <h3 className="mina-title">Mina's School of Great Falls</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="hero-image"></div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <h3 className="what-we-do">What We Do</h3>
+            <p>
+              At Mina's School, we concentrate on the core math and science
+              subjects. However, there is also a strong emphasis on the other
+              traditional basics: language arts (reading, writing, and grammar),
+              and civics (history and geography). We also weave into each school
+              day Exercise, Art (drawing and/or painting), and/or Technology
+              (computer technology and "shop"). To find out more about each
+              subject area offered, click on the subject below:
+              <li>
+                {/* <a href="/math">Math</a> */}
+                <Link to="/math">Math</Link>
+              </li>
+              <li>
+                <a href="/language-arts">Language Arts</a>
+              </li>
+              <li>
+                <a href="/science">Science</a>
+              </li>
+              <li>
+                <a href="/social-studies">Social Studies</a>
+              </li>
+              <li>
+                <a href="/fitness">Fitness</a>
+              </li>
+              <li>
+                <a href="/art">Art</a>
+              </li>
+              <li>
+                <a href="/technology">Technology</a>
+              </li>
+            </p>
+          </Col>
+          <Col>
+            <Testimonials />
+          </Col>
+        </Row>
+      </Container>
       {/* <p>
           "What a great place for our kindergarten girl!! This school ... [has]
           been able to tailor a program where she learns as much as she wants
