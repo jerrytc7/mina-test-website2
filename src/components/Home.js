@@ -33,22 +33,22 @@ function Home() {
                 <Link to="/math">Math</Link>
               </li>
               <li>
-                <a href="/language-arts">Language Arts</a>
+                <Link to="/language-arts">Language Arts</Link>
               </li>
               <li>
-                <a href="/science">Science</a>
+                <Link to="/science">Science</Link>
               </li>
               <li>
-                <a href="/social-studies">Social Studies</a>
+                <Link to="/social-studies">Social Studies</Link>
               </li>
               <li>
-                <a href="/fitness">Fitness</a>
+                <Link to="/fitness">Fitness</Link>
               </li>
               <li>
-                <a href="/art">Art</a>
+                <Link to="/art">Art</Link>
               </li>
               <li>
-                <a href="/technology">Technology</a>
+                <Link to="/technology">Technology</Link>
               </li>
             </p>
           </Col>
