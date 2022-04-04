@@ -1,0 +1,37 @@
+.mina-title {
+  color: black;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+.hero-image {
+  background-image: url("/hero-image.gif");
+  height: 40vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.what-we-do-container {
+  margin-bottom: 2rem;
+}
+
+.what-we-do-container li {
+  margin-bottom: 2.1rem;
+}
+
+.what-we-do-container h3 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.testimonial-container h3 {
+  text-align: center;
+  margin-top: 5rem;
+}

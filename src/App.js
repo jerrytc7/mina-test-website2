@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import BSNavbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -17,11 +17,21 @@ import Brochure from "./components/information/Brochure";
 import Policies from "./components/information/Policies";
 import Staff from "./components/about-us/Staff";
 import Philosophies from "./components/about-us/Philosophies";
+import { useLayoutEffect } from "react";
+
+
+function Wrapper({children}) {
+  const location = useLocation()
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0,0)
+  },[location.pathname]) 
+  return children
+}
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+    <Wrapper>
         <BSNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,7 +51,7 @@ function App() {
           <Route path="/staff" element={<Staff />} />
           <Route path="/philosophies" element={<Philosophies />} />
         </Routes>
-      </div>
+      </Wrapper>
     </BrowserRouter>
   );
 }
