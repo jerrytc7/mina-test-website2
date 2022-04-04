@@ -2,11 +2,6 @@
   color: black;
   text-align: center;
 }
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
-} */
 
 .hero-image {
   background-image: url("/hero-image.gif");
@@ -18,25 +13,18 @@
   justify-content: center;
 }
 
-/* .what-we-do-container {
-  margin-bottom: 2rem;
-}
-
-.what-we-do-container li {
-  margin-bottom: 2.1rem;
-}
-
-.what-we-do-container h3 {
-  text-align: center;
-  margin-top: 5rem;
-} */
-
 .testimonial-container h3 {
   margin-top: 3rem;
   text-align: center;
 }
 
-.what-we-do{
+.what-we-do-container{
   margin-top: 3rem;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .col{
+    flex: none;
+  }
 }

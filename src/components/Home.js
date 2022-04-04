@@ -19,7 +19,7 @@ function Home() {
         </Row>
         <Row>
           <Col>
-            <h3 className="what-we-do">What We Do</h3>
+            <h3 className="what-we-do-container">What We Do</h3>
             <p>
               At Mina's School, we concentrate on the core math and science
               subjects. However, there is also a strong emphasis on the other
