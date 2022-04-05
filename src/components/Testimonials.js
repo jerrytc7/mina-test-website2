@@ -4,7 +4,7 @@ import { Carousel, Button, Modal } from "react-bootstrap";
 
 function TestimonialModal({ review, show, onHide }) {
   return (
-    <Modal.Dialog show={show} onHide={onHide}>
+    <Modal show={show} onHide={onHide}>
       <Modal.Header closeButton></Modal.Header>
 
       <Modal.Body>
@@ -12,14 +12,13 @@ function TestimonialModal({ review, show, onHide }) {
       </Modal.Body>
 
       <Modal.Footer>
-        <Button variant="secondary">Close</Button>
-        <Button variant="primary">Save changes</Button>
+        <Button variant="secondary" onClick={onHide}>Close</Button>
       </Modal.Footer>
-    </Modal.Dialog>
+    </Modal>
   );
 }
 
-function TestimonialBody({ review, truncate }) {
+function TestimonialBody({ review, truncate, onModal }) {
   return (
     <>
       <h5>{review.parentName}</h5>
@@ -27,7 +26,7 @@ function TestimonialBody({ review, truncate }) {
       <p className={truncate ? "testimonial-review" : ""}>{review.review}</p>
       {truncate && (
         <div>
-          <Button variant="primary" size="sm">
+          <Button variant="primary" size="sm" onClick={onModal}>
             More...
           </Button>
         </div>
@@ -43,8 +42,8 @@ function Testimonial({ review }) {
   const handleShow = () => setShow(true);
   return (
     <>
-      <TestimonialBody review={review} truncate={true} />
-      <TestimonialModal review={review} />
+      <TestimonialBody review={review} truncate={true} onModal={handleShow} />
+      <TestimonialModal review={review} onHide={handleClose} show={show} />
     </>
   );
 }
