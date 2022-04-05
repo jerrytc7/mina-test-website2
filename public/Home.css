@@ -23,8 +23,11 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .col{
-    flex: none;
-  }
+.testimonial-review{
+  max-height: 13.7em;
+  overflow-y: hidden;
+}
+
+.testimonial-image{
+  max-height: 25em;
 }

@@ -18,7 +18,7 @@ function Home() {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={12} md={true}>
             <h3 className="what-we-do-container">What We Do</h3>
             <p>
               At Mina's School, we concentrate on the core math and science
@@ -51,7 +51,7 @@ function Home() {
               </li>
             </p>
           </Col>
-          <Col>
+          <Col xs={12} md={true}>
             <Testimonials />
           </Col>
         </Row>
