@@ -27,7 +27,7 @@ function TestimonialBody({ review, truncate, onModal }) {
       {truncate && (
         <div>
           <Button variant="primary" size="sm" onClick={onModal}>
-            More...
+            Read More...
           </Button>
         </div>
       )}
