@@ -18,7 +18,9 @@ import Policies from "./components/information/Policies";
 import Staff from "./components/about-us/Staff";
 import Philosophies from "./components/about-us/Philosophies";
 import { useLayoutEffect, useState } from "react";
-import { Container } from "react-bootstrap";
+import { Container, ToastContainer } from "react-bootstrap";
+import { v4 as uuid } from "uuid";
+import Toast from "./components/Toast";
 
 function Wrapper({ children }) {
   const location = useLocation();
@@ -29,15 +31,14 @@ function Wrapper({ children }) {
 }
 
 function App() {
-
-  const [toasts, setToasts] = useState([])
+  const [toasts, setToasts] = useState([]);
 
   function addToast(toast) {
-    setToasts([...toasts, toast])
+    setToasts([...toasts, { ...toast, id: uuid() }]);
   }
 
   function removeToast(id) {
-    setToasts(toasts.filter((toast)=>toast.id !== id))
+    setToasts(toasts.filter((toast) => toast.id !== id));
   }
 
   return (
@@ -54,7 +55,10 @@ function App() {
             <Route path="/fitness" element={<Fitness />} />
             <Route path="/art" element={<Art />} />
             <Route path="/technology" element={<Technology />} />
-            <Route path="/contact-form" element={<ContactForm addToast={addToast}/>} removeToast={removeToast} />
+            <Route
+              path="/contact-form"
+              element={<ContactForm addToast={addToast} />}
+            />
             <Route path="/after-school" element={<AfterSchool />} />
             <Route path="/summer-camps" element={<SummerCamps />} />
             <Route path="/school-schedule" element={<SchoolSchedule />} />
@@ -63,6 +67,15 @@ function App() {
             <Route path="/staff" element={<Staff />} />
             <Route path="/philosophies" element={<Philosophies />} />
           </Routes>
+          <div className="position-relative">
+            <ToastContainer position="bottom-center">
+              {toasts.map((toast) => {
+                return (
+                  <Toast {...toast} onClose={() => removeToast(toast.id)} />
+                );
+              })}
+            </ToastContainer>
+          </div>
         </Container>
       </Wrapper>
     </BrowserRouter>
