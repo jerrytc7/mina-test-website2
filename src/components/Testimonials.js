@@ -26,7 +26,7 @@ function TestimonialBody({ review, truncate, onModal }) {
       <p className={truncate ? "testimonial-review" : ""}>{review.review}</p>
       {truncate && (
         <div>
-          <Button variant="primary" size="sm" onClick={onModal}>
+          <Button variant="secondary" size="sm" onClick={onModal}>
             Read More...
           </Button>
         </div>
