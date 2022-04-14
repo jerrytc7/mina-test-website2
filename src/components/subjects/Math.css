@@ -1,7 +1,12 @@
-.opening-para-first-half{
-    margin-bottom: 0;
+.math-opening-para{
+    font-size: x-large;
+    max-height: 25rem;
 }
 
 .accord-title{
     text-align: center;
+}
+
+.first-row{
+    margin-bottom: 5rem;
 }
