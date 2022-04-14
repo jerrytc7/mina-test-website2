@@ -1,6 +1,5 @@
 .math-opening-para{
     font-size: x-large;
-    max-height: 25rem;
 }
 
 .accord-title{
@@ -9,4 +8,8 @@
 
 .first-row{
     margin-bottom: 5rem;
+}
+
+.opening-img{
+    width: 100%;
 }

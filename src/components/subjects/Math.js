@@ -7,7 +7,7 @@ function Math() {
     <div>
       <Container>
         <Row className="first-row">
-          <Col>
+          <Col xs={12} lg={true}>
             <Card border="secondary">
               <Card.Header>
                 <h1>Mathematics</h1>
@@ -29,10 +29,10 @@ function Math() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col xs={12} lg={true}>
             <img
               className="opening-img"
-              src="math-img-1.jpg"
+              src="math1-img.jpg"
               alt="happy-math-img"
             />
           </Col>
