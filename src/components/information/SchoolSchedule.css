@@ -5,3 +5,18 @@
   .tile-TW {
     background: red;
   }
+
+  .legend-desc{
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .legend-desc p{
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .calendar{
+    height: 100%;
+    width: 100%;
+  }
