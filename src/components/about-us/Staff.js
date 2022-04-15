@@ -6,16 +6,16 @@ function Staff() {
   return (
     <Container>
       <Row className="staff-row">
-        <Card style={{ width: "18rem" }}>
-          <Card.Img className="mina-img" variant="top" src="mina-staff.jpg" />
-          <Card.Body className="card-body">
-            <Card.Title>Mina Kondner</Card.Title>
-            <Card.Title>Director & Founder</Card.Title>
-            <Card.Text>
-              Director and Founder of Mina's School of Great Falls
-            </Card.Text>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img className="mina-img" variant="top" src="mina-staff.jpg" />
+            <Card.Body className="card-body">
+              <Card.Title>Mina Kondner</Card.Title>
+              <Card.Title>Director & Founder</Card.Title>
+              <Card.Text>
+                Director and Founder of Mina's School of Great Falls
+              </Card.Text>
+            </Card.Body>
+          </Card>
       </Row>
       <Row className="staff-row">
         <Col>
@@ -42,45 +42,63 @@ function Staff() {
             <Card.Body className="card-body">
               <Card.Title>Paige McFarland</Card.Title>
               <Card.Title>Teacher & Director Assistant</Card.Title>
-              <Card.Text>
-                Job Description
-              </Card.Text>
+              <Card.Text>Job Description</Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img className="eleeka-img" variant="top" src="https://via.placeholder.com/150" />
+            <Card.Img
+              className="eleeka-img"
+              variant="top"
+              src="https://via.placeholder.com/150"
+            />
             <Card.Body className="card-body">
               <Card.Title>Eleeka</Card.Title>
               <Card.Title>Teacher</Card.Title>
-              <Card.Text>
-                Job Description
-              </Card.Text>
+              <Card.Text>Job Description</Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img className="mr-ben-img" variant="top" src="https://via.placeholder.com/150" />
+            <Card.Img
+              className="mr-ben-img"
+              variant="top"
+              src="https://via.placeholder.com/150"
+            />
             <Card.Body className="card-body">
               <Card.Title>Ben Name</Card.Title>
               <Card.Title>Teacher & Technical Support</Card.Title>
-              <Card.Text>
-                Job Description
-              </Card.Text>
+              <Card.Text>Job Description</Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img className="parvoneh-img" variant="top" src="https://via.placeholder.com/150" />
+            <Card.Img
+              className="parvoneh-img"
+              variant="top"
+              src="https://via.placeholder.com/150"
+            />
             <Card.Body className="card-body">
               <Card.Title>Parvoneh</Card.Title>
               <Card.Title>Teacher</Card.Title>
-              <Card.Text>
-                Job Description
-              </Card.Text>
+              <Card.Text>Job Description</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              className="parvoneh-img"
+              variant="top"
+              src="https://via.placeholder.com/150"
+            />
+            <Card.Body className="card-body">
+              <Card.Title>Sarah</Card.Title>
+              <Card.Title>Teacher</Card.Title>
+              <Card.Text>Job Description</Card.Text>
             </Card.Body>
           </Card>
         </Col>
