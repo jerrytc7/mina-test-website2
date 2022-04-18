@@ -91,12 +91,26 @@ function Staff() {
         <Col>
           <Card style={{ width: "18rem" }}>
             <Card.Img
-              className="parvoneh-img"
+              className="sarah-img"
               variant="top"
               src="https://via.placeholder.com/150"
             />
             <Card.Body className="card-body">
               <Card.Title>Sarah</Card.Title>
+              <Card.Title>Teacher</Card.Title>
+              <Card.Text>Job Description</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              className="diana-img"
+              variant="top"
+              src="https://via.placeholder.com/150"
+            />
+            <Card.Body className="card-body">
+              <Card.Title>Diana</Card.Title>
               <Card.Title>Teacher</Card.Title>
               <Card.Text>Job Description</Card.Text>
             </Card.Body>
