@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import LanguageArts from "./components/subjects/LanguageArts";
 import Science from "./components/subjects/Science";
 import SocialStudies from "./components/subjects/SocialStudies";
 import Fitness from "./components/subjects/Fitness";
@@ -51,7 +50,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             {subjects.map(({path,...subject})=> <Route path={path} element={<Subject {...subject} />} />)}
-            <Route path="/language-arts" element={<LanguageArts />} />
             <Route path="/science" element={<Science />} />
             <Route path="/social-studies" element={<SocialStudies />} />
             <Route path="/fitness" element={<Fitness />} />
