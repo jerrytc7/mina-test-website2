@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Math from "./components/subjects/Math";
 import LanguageArts from "./components/subjects/LanguageArts";
 import Science from "./components/subjects/Science";
 import SocialStudies from "./components/subjects/SocialStudies";
