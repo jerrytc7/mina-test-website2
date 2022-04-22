@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/math",
+    "title": "Mathematics",
+    "openingPara": "At Mina’s School of Great Falls, we value and place a high priority on our student’s math curriculum. We assess new students to determine if any fundamental reviewing must occur, and quickly get to work addressing any weaker areas the student may have. Miss Mina’s hands-on method of teaching allows students of any level to easily visualize topics and gives them a solid understanding, without any memorization. Click any of the subjects below for a more detailed explanation of our teaching methods.",
+    "openingImg": "math1-img.jpg",
+    "subjectDetails": [
+      {
+        "title": "Addition",
+        "description": "In the addition lessons, the students use manipulatives such as ten blocks and place value mats. We make sure every student knows each lesson before the child moves on to the next step of addition. We begin by teaching numbers (reading and making numbers). By the end of the addition package, students will have learned to add three-digit numbers to three-digit numbers mentally and to add larger numbers on paper."
+      }
+    ]
+  }
+]

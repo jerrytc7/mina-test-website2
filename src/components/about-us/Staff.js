@@ -18,7 +18,7 @@ function Staff() {
           </Card>
       </Row>
       <Row className="staff-row">
-        <Col>
+        <Col className="flex-center">
           <Card style={{ width: "18rem" }}>
             <Card.Img
               className="jerry-img"
@@ -32,7 +32,7 @@ function Staff() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col className="flex-center">
           <Card style={{ width: "18rem" }}>
             <Card.Img
               className="paige-img"

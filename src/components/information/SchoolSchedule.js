@@ -24,43 +24,45 @@ function SchoolSchedule() {
     <Container>
       <Row>
         <Col>
-          <Calendar
-          className="calendar"
-            tileContent={({ date }) => {
-              console.log(date.getMonth());
-              let contents = "";
-              if (
-                calendarInfo[date.getFullYear()] &&
-                calendarInfo[date.getFullYear()][date.getMonth() + 1] &&
-                calendarInfo[date.getFullYear()][date.getMonth() + 1][
-                  date.getDate()
-                ]
-              ) {
-                contents =
+          <div>
+            <Calendar
+              className="calendar"
+              tileContent={({ date }) => {
+                console.log(date.getMonth());
+                let contents = "";
+                if (
+                  calendarInfo[date.getFullYear()] &&
+                  calendarInfo[date.getFullYear()][date.getMonth() + 1] &&
                   calendarInfo[date.getFullYear()][date.getMonth() + 1][
                     date.getDate()
-                  ];
-              }
-              return <div>{contents}</div>;
-            }}
-            tileClassName={({ date }) => {
-              console.log(date.getMonth());
-              let contents = "";
-              if (
-                calendarInfo[date.getFullYear()] &&
-                calendarInfo[date.getFullYear()][date.getMonth() + 1] &&
-                calendarInfo[date.getFullYear()][date.getMonth() + 1][
-                  date.getDate()
-                ]
-              ) {
-                contents =
+                  ]
+                ) {
+                  contents =
+                    calendarInfo[date.getFullYear()][date.getMonth() + 1][
+                      date.getDate()
+                    ];
+                }
+                return <div>{contents}</div>;
+              }}
+              tileClassName={({ date }) => {
+                console.log(date.getMonth());
+                let contents = "";
+                if (
+                  calendarInfo[date.getFullYear()] &&
+                  calendarInfo[date.getFullYear()][date.getMonth() + 1] &&
                   calendarInfo[date.getFullYear()][date.getMonth() + 1][
                     date.getDate()
-                  ];
-              }
-              return "tile-" + contents;
-            }}
-          />
+                  ]
+                ) {
+                  contents =
+                    calendarInfo[date.getFullYear()][date.getMonth() + 1][
+                      date.getDate()
+                    ];
+                }
+                return "tile-" + contents;
+              }}
+            />
+          </div>
         </Col>
         <Col>
           <Card style={{ width: "22rem" }}>

@@ -8,7 +8,7 @@ import {
 } from "react-bootstrap";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar({subjects}) {
   return (
     <BSNavbar bg="light" expand="lg">
       <Container>
@@ -20,7 +20,7 @@ function Navbar() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="School Curricula" id="curricula-dropdown">
-              <NavDropdown.Item href="/math">Math</NavDropdown.Item>
+              {subjects.map(({path, title})=> <NavDropdown.Item href={path}>{title}</NavDropdown.Item>)}
               <NavDropdown.Item href="/language-arts">
                 Language Arts
               </NavDropdown.Item>
@@ -31,10 +31,6 @@ function Navbar() {
               <NavDropdown.Item href="/fitness">Fitness</NavDropdown.Item>
               <NavDropdown.Item href="/art">Art</NavDropdown.Item>
               <NavDropdown.Item href="/technology">Technology</NavDropdown.Item>
-              {/* <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item> */}
             </NavDropdown>
             <Nav.Link href="/contact-form">Enrollment</Nav.Link>
             <NavDropdown title="Programs" id="programs-dropdown">

@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
-import BSNavbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Math from "./components/subjects/Math";
 import LanguageArts from "./components/subjects/LanguageArts";
@@ -21,6 +21,9 @@ import { useLayoutEffect, useState } from "react";
 import { Container, ToastContainer } from "react-bootstrap";
 import { v4 as uuid } from "uuid";
 import Toast from "./components/Toast";
+import subjects from "./data/subjects.json"
+import Subject from "./components/subjects/Subject";
+
 
 function Wrapper({ children }) {
   const location = useLocation();
@@ -44,11 +47,11 @@ function App() {
   return (
     <BrowserRouter>
       <Wrapper>
-        <BSNavbar />
+        <Navbar subjects={subjects}/>
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/math" element={<Math />} />
+            {subjects.map(({path,...subject})=> <Route path={path} element={<Subject {...subject} />} />)}
             <Route path="/language-arts" element={<LanguageArts />} />
             <Route path="/science" element={<Science />} />
             <Route path="/social-studies" element={<SocialStudies />} />

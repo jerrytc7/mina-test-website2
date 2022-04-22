@@ -1,0 +1,25 @@
+.flex-center{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.accord-title{
+    text-align: center;
+}
+
+.first-row{
+    margin-bottom: 5rem;
+}
+
+.opening-img{
+    width: 100%;
+}
+
+.first-row{
+    margin-bottom: 5rem;
+}
