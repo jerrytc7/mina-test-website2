@@ -21,11 +21,6 @@ function Navbar({subjects}) {
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="School Curricula" id="curricula-dropdown">
               {subjects.map(({path, title})=> <NavDropdown.Item href={path}>{title}</NavDropdown.Item>)}
-              <NavDropdown.Item href="/science">Science</NavDropdown.Item>
-              <NavDropdown.Item href="/social-studies">
-                Social Studies
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/fitness">Fitness</NavDropdown.Item>
               <NavDropdown.Item href="/art">Art</NavDropdown.Item>
               <NavDropdown.Item href="/technology">Technology</NavDropdown.Item>
             </NavDropdown>

@@ -110,5 +110,61 @@
         "description": "We instruct our students in speaking and listening skills to ensure they can talk to groups, be understood, and also evolve into empathetic listeners. This important part of education is stressed during in-depth discussions in literature circles and their involvement in the junior level of the Toastmaster’s Gavel Club held regularly at the school. Our students learn to step out of their comfort zones and become confident when sharing their ideas and thoughts in front of an audience. We urge students to use good body language and powerful vocabulary words to make their points. Students learn how to frame the content of their speech in a cohesive manner and with positive reinforcement. They also practice extemporaneous speaking during the Toastmaster’s Gavel Club meetings when each student is assigned a topic and asked to speak on it without prior knowledge or preparation. These real-world skills are critical for students to master as they move into high school, college, and later the working world."
       }
     ]
+  },
+  {
+    "path": "/science",
+    "title": "Science",
+    "openingPara": "At our school, the most important aspect of education is learning how to learn. We group children according to their level of understanding and not their current grade level. Students whose science reading and comprehension is at a high level are provided the opportunity to enrich their learning and to move on to a more advanced level of content. In addition to the text book, instruction takes place through several means use physical models, experiments, and educational videos which are incorporated into the curriculum. This provides students the opportunity to learn the material in a variety of ways and improves long-term comprehension.",
+    "openingImg": "science-img-1.jpg",
+    "subjectDetails": [
+      {
+        "title": "GRADES K-2",
+        "description": "We introduce the Pearson Education Interactive Science textbook to students once they reach a minimum critical reading level."
+      },
+      {
+        "title": "GRADES 3-5",
+        "description": "Formal science instruction begins with life science. Students learn about plants and animals, classification systems, plant reproduction, adaptations, and characteristics. One of the most significant aspects of instruction at this level is that students become familiar with the study skills needed to understand more complex science topics. This in turn leads to an increase in student interest in science and a better overall grasp of the subject."
+      },
+      {
+        "title": "GRADES 5-8",
+        "description": "Students who read with confidence take Introduction to Chemistry. Physical models are utilized to enhance student’s learning. As with other academic subjects, it is imperative students not only read but also comprehend the subject matter. Our teachers ensure students always explain technical concepts using proper scientific vocabulary. At this level we also begin teaching students to write about what they have learned using the scientific method. After chemistry, physics is introduced and then biology."
+      }
+    ]
+  },
+  {
+    "path": "/social-studies",
+    "title": "Social Studies",
+    "openingPara": "We follow an integrated approach to provide a conceptual framework for history, geography and civics. Oral presentations, research projects and field trips reinforce historical knowledge. The textbooks which the school utilizes have been written by Joy Hakim, a venerable author who writes historical facts in a subtle fictional style. The content is multifaceted in that it not only presents data but also offers explanatory material to teach contextual associations among the facts. This helps students learn to identify significant facts from trivial ones. Our goal is to aid students in becoming proficient junior historians.",
+    "openingImg": "socialstudies-img-1.jpg",
+    "subjectDetails": [
+      {
+        "title": "History",
+        "description": "We introduce the Pearson Education Interactive Science textbook to students once they reach a minimum critical reading level."
+      },
+      {
+        "title": "Geography",
+        "description": "Formal science instruction begins with life science. Students learn about plants and animals, classification systems, plant reproduction, adaptations, and characteristics. One of the most significant aspects of instruction at this level is that students become familiar with the study skills needed to understand more complex science topics. This in turn leads to an increase in student interest in science and a better overall grasp of the subject."
+      },
+      {
+        "title": "Civics",
+        "description": "Students who read with confidence take Introduction to Chemistry. Physical models are utilized to enhance student’s learning. As with other academic subjects, it is imperative students not only read but also comprehend the subject matter. Our teachers ensure students always explain technical concepts using proper scientific vocabulary. At this level we also begin teaching students to write about what they have learned using the scientific method. After chemistry, physics is introduced and then biology."
+      }
+    ]
+  },
+  {
+    "path": "/fitness",
+    "title": "Fitness",
+    "openingPara": "Mina's School of Great Falls puts an emphasis on maintaining the fitness of all students attending the school. During the day, students have at least _____ to play amongst themselves at recess. Not only that, but students will have the opportunity to participate in organized sporting games administered by the current fitness coach. These games include, but are not limited to: soccer, tag, kickball, basketball, wiffle-ball, etc. Not only will this keep students in healthy physical condition, but it will also foster communication and teamwork amongst the students.",
+    "openingImg": "fitness.jpg",
+    "subjectDetails": [
+      {
+        "title": "Nutrition",
+        "description": "Mina's Elementary School teaches children the importance of eating healthy foods instead of processed and 'junk foods'."
+      },
+      {
+        "title": "Yoga Class",
+        "description": "Once each week, we have a yoga instructor visit our school to conduct a yoga class."
+      }
+    ]
   }
 ]
