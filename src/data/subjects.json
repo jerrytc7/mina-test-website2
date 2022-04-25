@@ -166,5 +166,37 @@
         "description": "Once each week, we have a yoga instructor visit our school to conduct a yoga class."
       }
     ]
+  },
+  {
+    "path": "/art",
+    "title": "Art",
+    "openingPara": "Mina's School of Great Falls has an incredibly diverse art program in which students are exposed to and educated in numerous different styles of art. Not only are the students presented the history of art, but there are numerous different projects administered throughout the year in which students can draw/create some of their own works! ",
+    "openingImg": "art-pic.jpg",
+    "subjectDetails": [
+      {
+        "title": "Drawing & Painting",
+        "description": "Children have a lot of fun drawing and painting during Mina's School art program."
+      },
+      {
+        "title": "Music Appreciation",
+        "description": "Contact Ms. Mina for detailed explanation of her methods and program!"
+      }
+    ]
+  },
+  {
+    "path": "/technology",
+    "title": "Technology",
+    "openingPara": "Technology is an important extension of the math and science instruction. Children learn the connection between the conceptual subjects of math and science and how they become concrete through the physical implementations of practical everyday technology. By exploring and tinkering with technology, students learn to appreciate the necessary foundations provided by math and science.",
+    "openingImg": "technology-img-1.jpg",
+    "subjectDetails": [
+      {
+        "title": "Computer Technology",
+        "description": "Applications (MS Office), programming, and website administration are developed and used by children during the course of study."
+      },
+      {
+        "title": "Mechanics & Electronics",
+        "description": "Everyday things like motors, engines, electricity, circuits, plumbing, etc. are explored so that students understand the scientific foundations behind their everyday lives. Contact Ms. Mina for detailed explanation of her methods and program!"
+      }
+    ]
   }
 ]

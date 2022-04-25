@@ -2,8 +2,6 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Art from "./components/subjects/Art";
-import Technology from "./components/subjects/Technology";
 import ContactForm from "./components/contact/ContactForm";
 import AfterSchool from "./components/programs/AfterSchool";
 import SummerCamps from "./components/programs/SummerCamps";
@@ -47,8 +45,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             {subjects.map(({path,...subject})=> <Route path={path} element={<Subject {...subject} />} />)}
-            <Route path="/art" element={<Art />} />
-            <Route path="/technology" element={<Technology />} />
             <Route
               path="/contact-form"
               element={<ContactForm addToast={addToast} />}
