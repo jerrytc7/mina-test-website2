@@ -88,7 +88,7 @@ function Staff() {
               src="https://via.placeholder.com/150"
             />
             <Card.Body className="card-body">
-              <Card.Title>Sarah</Card.Title>
+              <Card.Title>Sara Tabik</Card.Title>
               <Card.Title>Teacher</Card.Title>
             </Card.Body>
           </Card>
