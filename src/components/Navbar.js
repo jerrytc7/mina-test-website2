@@ -35,7 +35,7 @@ function Navbar({subjects}) {
               <NavDropdown.Item href="/school-schedule">
                 School Schedule
               </NavDropdown.Item>
-              <NavDropdown.Item href="/brochure">Brochure</NavDropdown.Item>
+              <NavDropdown.Item href="/documents">Documents</NavDropdown.Item>
               <NavDropdown.Item href="/policies">Policies</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="about-us-dropdown">

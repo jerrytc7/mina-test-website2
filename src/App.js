@@ -6,7 +6,6 @@ import ContactForm from "./components/contact/ContactForm";
 import AfterSchool from "./components/programs/AfterSchool";
 import SummerCamps from "./components/programs/SummerCamps";
 import SchoolSchedule from "./components/information/SchoolSchedule";
-import Brochure from "./components/information/Brochure";
 import Policies from "./components/information/Policies";
 import Staff from "./components/about-us/Staff";
 import Philosophies from "./components/about-us/Philosophies";
@@ -16,6 +15,7 @@ import { v4 as uuid } from "uuid";
 import Toast from "./components/Toast";
 import subjects from "./data/subjects.json"
 import Subject from "./components/subjects/Subject";
+import Documents from "./components/information/Documents";
 
 
 function Wrapper({ children }) {
@@ -52,7 +52,7 @@ function App() {
             <Route path="/after-school" element={<AfterSchool />} />
             <Route path="/summer-camps" element={<SummerCamps />} />
             <Route path="/school-schedule" element={<SchoolSchedule />} />
-            <Route path="/brochure" element={<Brochure />} />
+            <Route path="/documents" element={<Documents />} />
             <Route path="/policies" element={<Policies />} />
             <Route path="/staff" element={<Staff />} />
             <Route path="/philosophies" element={<Philosophies />} />
