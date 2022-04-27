@@ -72,7 +72,7 @@ function Staff() {
             <Card.Img
               className="parvoneh-img"
               variant="top"
-              src="https://via.placeholder.com/150"
+              src="par-img.JPEG"
             />
             <Card.Body className="card-body">
               <Card.Title>Par Pazadeh</Card.Title>
@@ -85,7 +85,7 @@ function Staff() {
             <Card.Img
               className="sarah-img"
               variant="top"
-              src="https://via.placeholder.com/150"
+              src="sara-img.jpg"
             />
             <Card.Body className="card-body">
               <Card.Title>Sara Tabik</Card.Title>
