@@ -4,7 +4,7 @@
 }
 
 .hero-image {
-  background-image: url("hero-image.gif");
+  background-image: url("/hero-image.gif");
   height: 40vh;
   width: 100%;
   background-repeat: no-repeat;
