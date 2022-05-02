@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mina-test-website2/static/css/main.2ce04eef.css",
+    "main.js": "/mina-test-website2/static/js/main.ff8c2cc9.js",
+    "index.html": "/mina-test-website2/index.html",
+    "main.2ce04eef.css.map": "/mina-test-website2/static/css/main.2ce04eef.css.map",
+    "main.ff8c2cc9.js.map": "/mina-test-website2/static/js/main.ff8c2cc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ce04eef.css",
+    "static/js/main.ff8c2cc9.js"
+  ]
+}
