@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -38,7 +38,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Wrapper>
         <Navbar subjects={subjects}/>
         <Container>
@@ -68,7 +68,7 @@ function App() {
           </div>
         </Container>
       </Wrapper>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
