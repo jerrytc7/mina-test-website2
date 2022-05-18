@@ -1,0 +1,38 @@
+.mina-title {
+  color: black;
+  text-align: center;
+}
+
+.hero-image {
+  background-image: url("hero-image.gif");
+  height: 40vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-container h3 {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.what-we-do-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.testimonial-review {
+  max-height: 13.7em;
+  overflow-y: hidden;
+}
+
+.testimonial-image {
+  max-height: 25em;
+}
+
+.carousel-caption{
+    bottom: initial;
+    top: 1.25rem;
+}

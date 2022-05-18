@@ -5,7 +5,7 @@ import "./Staff.css";
 function Staff() {
   return (
     <Container>
-      <Row className="staff-row">
+      <Row className="staff-row mb-3">
           <Card style={{ width: "18rem" }}>
             <Card.Img className="mina-img" variant="top" src="mina-staff.jpg" />
             <Card.Body className="card-body">
@@ -16,7 +16,7 @@ function Staff() {
       </Row>
       <Row className="staff-row">
         <Col className="flex-center">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} className="mb-2">
             <Card.Img
               className="jerry-img"
               variant="top"
@@ -29,7 +29,7 @@ function Staff() {
           </Card>
         </Col>
         <Col className="flex-center">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} className="mb-2">
             <Card.Img
               className="paige-img"
               variant="top"
@@ -42,7 +42,7 @@ function Staff() {
           </Card>
         </Col>
         <Col className="flex-center">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} className="mb-2">
             <Card.Img
               className="eleeka-img"
               variant="top"
@@ -55,7 +55,7 @@ function Staff() {
           </Card>
         </Col>
         <Col className="flex-center">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} className="mb-2">
             <Card.Img
               className="mr-ben-img"
               variant="top"
