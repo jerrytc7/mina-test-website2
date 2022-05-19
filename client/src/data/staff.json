@@ -1,42 +1,37 @@
 [
-    {
-        "name": "Mina Kondner",
-        "title": "Director, Founder & Principal",
-        "img": "mina-staff.jpg"
-    },
-    {
-        "name": "Jerry Kondner",
-        "title": "Teacher & Software Development Assistant",
-        "img": "jerry-staff.jpg"
-    },
-    {
-        "name": "Paige McFarland",
-        "title": "Teacher & Director Assistant",
-        "img": "https://via.placeholder.com/150"
-    },
-    {
-        "name": "Eleeka",
-        "title": "Teacher",
-        "img": "https://via.placeholder.com/150"
-    },
-    {
-        "name": "Ben Name",
-        "title": "Teacher & Technical Support",
-        "img": "ben-img.JPG"
-    },
-    {
-        "name": "Par Pazadeh",
-        "title": "Teacher",
-        "img": "par-img.JPG"
-    },
-    {
-        "name": "Sara Tabik",
-        "title": "Teacher",
-        "img": "sara-img.jpg"
-    },
-    {
-        "name": "Diana",
-        "title": "Teacher",
-        "img": "https://via.placeholder.com/150"
-    }
+  {
+    "name": "Jerry Kondner",
+    "title": "Teacher & Software Development Assistant",
+    "img": "jerry-staff.jpg"
+  },
+  {
+    "name": "Paige McFarland",
+    "title": "Teacher & Director Assistant",
+    "img": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Eleeka",
+    "title": "Teacher",
+    "img": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Ben Name",
+    "title": "Teacher & Technical Support",
+    "img": "ben-img.JPG"
+  },
+  {
+    "name": "Par Pazadeh",
+    "title": "Teacher",
+    "img": "par-img.JPEG"
+  },
+  {
+    "name": "Sara Tabik",
+    "title": "Teacher",
+    "img": "sara-img.jpg"
+  },
+  {
+    "name": "Diana",
+    "title": "Teacher",
+    "img": "https://via.placeholder.com/150"
+  }
 ]

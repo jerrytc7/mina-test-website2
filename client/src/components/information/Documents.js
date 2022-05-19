@@ -9,7 +9,6 @@ function Documents({ documents }) {
       </header>
       <body>
         {documents.map((document) => (
-          
           <ul>
             <li>
               <a href={document.path} target="_blank" rel="noreferrer">

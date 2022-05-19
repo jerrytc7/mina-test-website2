@@ -16,7 +16,8 @@ import Toast from "./components/Toast";
 import subjects from "./data/subjects.json"
 import Subject from "./components/subjects/Subject";
 import Documents from "./components/information/Documents";
-import documentdata from "./data/documents.json"
+import documentData from "./data/documents.json";
+import staffData from "./data/staff.json";
 
 
 function Wrapper({ children }) {
@@ -53,9 +54,9 @@ function App() {
             <Route path="/after-school" element={<AfterSchool />} />
             <Route path="/summer-camps" element={<SummerCamps />} />
             <Route path="/school-schedule" element={<SchoolSchedule />} />
-            <Route path="/documents" element={<Documents documents={documentdata}/>} />
+            <Route path="/documents" element={<Documents documents={documentData}/>} />
             <Route path="/policies" element={<Policies />} />
-            <Route path="/staff" element={<Staff />} />
+            <Route path="/staff" element={<Staff staffData={staffData}/>} />
             <Route path="/philosophies" element={<Philosophies />} />
           </Routes>
           <div className="position-relative">

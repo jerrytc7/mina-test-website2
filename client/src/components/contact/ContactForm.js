@@ -37,7 +37,7 @@ function ContactForm({ addToast }) {
           <p>
             If you are interested in enrolling in our school, getting more
             information regarding our after-school programs, or have some questions about out summer camps,
-            please submit a contact request and we will respond shortly!
+            please send a contact request below and we will respond shortly!
           </p>
         </Col>
       </Row>
