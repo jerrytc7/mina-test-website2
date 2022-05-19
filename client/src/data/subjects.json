@@ -3,7 +3,7 @@
     "path": "/math",
     "title": "Mathematics",
     "openingPara": "At Mina’s School of Great Falls, we value and place a high priority on our student’s math curriculum. We assess new students to determine if any fundamental reviewing must occur, and quickly get to work addressing any weaker areas the student may have. Miss Mina’s hands-on method of teaching allows students of any level to easily visualize topics and gives them a solid understanding, without any memorization. Click any of the subjects below for a more detailed explanation of our teaching methods.",
-    "openingImg": "math1-img.jpg",
+    "openingImgs": ["math1-img.jpg", "math-img-2.jpg"],
     "subjectDetails": [
       {
         "title": "Addition",
@@ -71,7 +71,7 @@
     "path": "/language-arts",
     "title": "Language Arts",
     "openingPara": "Our comprehensive Language Arts program molds student into skilled readers, writers, and thinkers. The curriculum encompasses phonics, reading, grammar, vocabulary, writing, and spelling. Mina’s School of Great Falls focuses on the basics. As such, we place great emphasis on building students’ phonological awareness. Students learn effective strategies to decode unfamiliar words with more ease and confidence. We use direct instruction and student-centered activities to strengthen students’ vocabulary and literacy skills, and encourage language development through participation in authentic language activities.",
-    "openingImg": "languagearts-img-1.jpg",
+    "openingImgs": ["languagearts-img-1.jpg"],
     "subjectDetails": [
       {
         "title": "Reading",
@@ -115,7 +115,7 @@
     "path": "/science",
     "title": "Science",
     "openingPara": "At our school, the most important aspect of education is learning how to learn. We group children according to their level of understanding and not their current grade level. Students whose science reading and comprehension is at a high level are provided the opportunity to enrich their learning and to move on to a more advanced level of content. In addition to the text book, instruction takes place through several means use physical models, experiments, and educational videos which are incorporated into the curriculum. This provides students the opportunity to learn the material in a variety of ways and improves long-term comprehension.",
-    "openingImg": "science-img-1.jpg",
+    "openingImgs": ["science-img-1.jpg"],
     "subjectDetails": [
       {
         "title": "GRADES K-2",
@@ -135,7 +135,7 @@
     "path": "/social-studies",
     "title": "Social Studies",
     "openingPara": "We follow an integrated approach to provide a conceptual framework for history, geography and civics. Oral presentations, research projects and field trips reinforce historical knowledge. The textbooks which the school utilizes have been written by Joy Hakim, a venerable author who writes historical facts in a subtle fictional style. The content is multifaceted in that it not only presents data but also offers explanatory material to teach contextual associations among the facts. This helps students learn to identify significant facts from trivial ones. Our goal is to aid students in becoming proficient junior historians.",
-    "openingImg": "socialstudies-img-1.jpg",
+    "openingImgs": ["socialstudies-img-1.jpg"],
     "subjectDetails": [
       {
         "title": "History",
@@ -154,8 +154,8 @@
   {
     "path": "/fitness",
     "title": "Fitness",
-    "openingPara": "Mina's School of Great Falls puts an emphasis on maintaining the fitness of all students attending the school. During the day, students have at least _____ to play amongst themselves at recess. Not only that, but students will have the opportunity to participate in organized sporting games administered by the current fitness coach. These games include, but are not limited to: soccer, tag, kickball, basketball, wiffle-ball, etc. Not only will this keep students in healthy physical condition, but it will also foster communication and teamwork amongst the students.",
-    "openingImg": "fitness.jpg",
+    "openingPara": "Mina's School of Great Falls puts an emphasis on maintaining the fitness of all students attending the school. During the day, students have at least 90 minutes to play amongst themselves at recess. Not only that, but students will have the opportunity to participate in organized sporting games administered by the current fitness coach. These games include, but are not limited to: soccer, tag, kickball, basketball, wiffle-ball, etc. Not only will this keep students in healthy physical condition, but it will also foster communication and teamwork amongst the students.",
+    "openingImgs": ["fitness.jpg"],
     "subjectDetails": [
       {
         "title": "Nutrition",
@@ -171,7 +171,7 @@
     "path": "/art",
     "title": "Art",
     "openingPara": "Mina's School of Great Falls has an incredibly diverse art program in which students are exposed to and educated in numerous different styles of art. Not only are the students presented the history of art, but there are numerous different projects administered throughout the year in which students can draw/create some of their own works! ",
-    "openingImg": "art-pic.jpg",
+    "openingImgs": ["art-pic.jpg"],
     "subjectDetails": [
       {
         "title": "Drawing & Painting",
@@ -187,7 +187,7 @@
     "path": "/technology",
     "title": "Technology",
     "openingPara": "Technology is an important extension of the math and science instruction. Children learn the connection between the conceptual subjects of math and science and how they become concrete through the physical implementations of practical everyday technology. By exploring and tinkering with technology, students learn to appreciate the necessary foundations provided by math and science.",
-    "openingImg": "technology-img-1.jpg",
+    "openingImgs": ["technology-img-1.jpg"],
     "subjectDetails": [
       {
         "title": "Computer Technology",

@@ -1,24 +1,28 @@
 import React from "react";
-import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
-import "./Subject.css"
+import {
+  Container,
+  Row,
+  Col,
+  Accordion,
+  Card,
+  Carousel,
+} from "react-bootstrap";
+import "./Subject.css";
 
-
-function SubjectDetail({title, description, index}) {
+function SubjectDetail({ title, description, index }) {
   return (
     <Accordion.Item eventKey={`${index}`}>
       <Accordion.Header>
         <h4>{title}</h4>
       </Accordion.Header>
       <Accordion.Body>
-        <p>
-          {description}
-        </p>
+        <p>{description}</p>
       </Accordion.Body>
     </Accordion.Item>
   );
 }
 
-function Subject({ title, openingPara, openingImg, subjectDetails }) {
+function Subject({ title, openingPara, openingImgs, subjectDetails }) {
   return (
     <div>
       <Container>
@@ -36,11 +40,13 @@ function Subject({ title, openingPara, openingImg, subjectDetails }) {
             </Card>
           </Col>
           <Col xs={12} lg={true} className="flex-center flex-column">
-            <img
-              className="opening-img"
-              src={openingImg}
-              alt="happy-math-img"
-            />
+            <Carousel>
+              {openingImgs.map((openingImg) => (
+                <Carousel.Item>
+                  <img className="opening-img" src={openingImg} alt="happy-math-img" />
+                </Carousel.Item>
+              ))}
+            </Carousel>
           </Col>
         </Row>
         <Row>
