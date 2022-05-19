@@ -3,7 +3,7 @@
     "path": "/math",
     "title": "Mathematics",
     "openingPara": "At Mina’s School of Great Falls, we value and place a high priority on our student’s math curriculum. We assess new students to determine if any fundamental reviewing must occur, and quickly get to work addressing any weaker areas the student may have. Miss Mina’s hands-on method of teaching allows students of any level to easily visualize topics and gives them a solid understanding, without any memorization. Click any of the subjects below for a more detailed explanation of our teaching methods.",
-    "openingImgs": ["math1-img.jpg", "math-img-2.jpg"],
+    "openingImgs": ["math1-img.jpg", "math-img-2.jpg", "math-img-3.JPG", "math-img-4.JPG"],
     "subjectDetails": [
       {
         "title": "Addition",
@@ -71,7 +71,7 @@
     "path": "/language-arts",
     "title": "Language Arts",
     "openingPara": "Our comprehensive Language Arts program molds student into skilled readers, writers, and thinkers. The curriculum encompasses phonics, reading, grammar, vocabulary, writing, and spelling. Mina’s School of Great Falls focuses on the basics. As such, we place great emphasis on building students’ phonological awareness. Students learn effective strategies to decode unfamiliar words with more ease and confidence. We use direct instruction and student-centered activities to strengthen students’ vocabulary and literacy skills, and encourage language development through participation in authentic language activities.",
-    "openingImgs": ["languagearts-img-1.jpg"],
+    "openingImgs": ["languagearts-img-1.jpg", "languagearts-img-2.JPG", "languagearts-img-3.JPG", "languagearts-img-4.JPG"],
     "subjectDetails": [
       {
         "title": "Reading",
@@ -115,7 +115,7 @@
     "path": "/science",
     "title": "Science",
     "openingPara": "At our school, the most important aspect of education is learning how to learn. We group children according to their level of understanding and not their current grade level. Students whose science reading and comprehension is at a high level are provided the opportunity to enrich their learning and to move on to a more advanced level of content. In addition to the text book, instruction takes place through several means use physical models, experiments, and educational videos which are incorporated into the curriculum. This provides students the opportunity to learn the material in a variety of ways and improves long-term comprehension.",
-    "openingImgs": ["science-img-1.jpg"],
+    "openingImgs": ["science-img-1.jpg", "science-img-2.JPG", "science-img-3.JPG", "science-img-4.JPG"],
     "subjectDetails": [
       {
         "title": "GRADES K-2",
@@ -155,7 +155,7 @@
     "path": "/fitness",
     "title": "Fitness",
     "openingPara": "Mina's School of Great Falls puts an emphasis on maintaining the fitness of all students attending the school. During the day, students have at least 90 minutes to play amongst themselves at recess. Not only that, but students will have the opportunity to participate in organized sporting games administered by the current fitness coach. These games include, but are not limited to: soccer, tag, kickball, basketball, wiffle-ball, etc. Not only will this keep students in healthy physical condition, but it will also foster communication and teamwork amongst the students.",
-    "openingImgs": ["fitness.jpg"],
+    "openingImgs": ["fitness-img-1.jpg", "fitness-img-2.JPG", "fitness-img-3.JPG", "fitness-img-4.JPG"],
     "subjectDetails": [
       {
         "title": "Nutrition",
@@ -187,7 +187,7 @@
     "path": "/technology",
     "title": "Technology",
     "openingPara": "Technology is an important extension of the math and science instruction. Children learn the connection between the conceptual subjects of math and science and how they become concrete through the physical implementations of practical everyday technology. By exploring and tinkering with technology, students learn to appreciate the necessary foundations provided by math and science.",
-    "openingImgs": ["technology-img-1.jpg"],
+    "openingImgs": ["technology-img-1.jpg", "technology-img-2.JPG", "technology-img-3.JPG", "technology-img-4.JPG"],
     "subjectDetails": [
       {
         "title": "Computer Technology",
