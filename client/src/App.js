@@ -18,6 +18,7 @@ import Subject from "./components/subjects/Subject";
 import Documents from "./components/information/Documents";
 import documentData from "./data/documents.json";
 import staffData from "./data/staff.json";
+import afterSchoolPrograms from "./data/afterschoolprograms.json";
 
 
 function Wrapper({ children }) {
@@ -51,7 +52,7 @@ function App() {
               path="/contact-form"
               element={<ContactForm addToast={addToast} />}
             />
-            <Route path="/after-school" element={<AfterSchool />} />
+            {afterSchoolPrograms.map(({...programs})=> <Route path="/after-school" element={<AfterSchool {...programs}/>} />)}
             <Route path="/summer-camps" element={<SummerCamps />} />
             <Route path="/school-schedule" element={<SchoolSchedule />} />
             <Route path="/documents" element={<Documents documents={documentData}/>} />

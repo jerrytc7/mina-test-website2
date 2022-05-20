@@ -3,7 +3,7 @@
     "path": "/math",
     "title": "Mathematics",
     "openingPara": "At Mina’s School of Great Falls, we value and place a high priority on our student’s math curriculum. We assess new students to determine if any fundamental reviewing must occur, and quickly get to work addressing any weaker areas the student may have. Miss Mina’s hands-on method of teaching allows students of any level to easily visualize topics and gives them a solid understanding, without any memorization. Click any of the subjects below for a more detailed explanation of our teaching methods.",
-    "openingImgs": ["math1-img.jpg", "math-img-2.jpg", "math-img-3.JPG", "math-img-4.JPG"],
+    "openingImgs": ["math-img-1.jpg", "math-img-2.jpg", "math-img-3.JPG", "math-img-4.jpg"],
     "subjectDetails": [
       {
         "title": "Addition",

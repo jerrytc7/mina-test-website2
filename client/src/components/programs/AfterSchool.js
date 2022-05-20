@@ -1,30 +1,74 @@
-import React from 'react'
+import React from "react";
+import {
+  Container,
+  Row,
+  Col,
+  Accordion,
+  Card,
+  Carousel,
+} from "react-bootstrap";
+import "./AfterSchool.css";
 
-function AfterSchool() {
+function AfterSchoolDetail({ title, description, index }) {
   return (
-    <div>
-      <header>
-        <h3>After School Programs</h3>
-      </header>
-      <body>
-        <p>
-          Mina's School of Great Falls also offers after-programs for students who are not currently enrolled full-time at our school. Our most popular programs are our math, phonincs, and technology after-school programs.
-        </p>
-        <h4>Math</h4>
-        <p>
-          Mina's Elementary School offers an after-school math program.
-        </p>
-        <h4>Phonics</h4>
-        <p>
-          Mina's Elementary School offers an after-school phonics program.
-        </p>
-        <h4>Engineering & Technology</h4>
-        <p>
-          Mina's Elementary School offers an after-school engineering & Technology program.
-        </p>
-      </body>
-    </div>
-  )
+    <Accordion.Item eventKey={`${index}`}>
+      <Accordion.Header>
+        <h4>{title}</h4>
+      </Accordion.Header>
+      <Accordion.Body>
+        <p>{description}</p>
+      </Accordion.Body>
+    </Accordion.Item>
+  );
 }
 
-export default AfterSchool
+function AfterSchool({ title, openingPara, openingImgs, programDetails }) {
+  return (
+    <div>
+      <Container>
+        <Row className="first-row">
+          <Col xs={12} lg={true} className="flex-center flex-column">
+            <Card border="secondary">
+              <Card.Header>
+                <h1>{title}</h1>
+              </Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <p className="opening-para">{openingPara}</p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} lg={true} className="flex-center flex-column">
+            <Carousel>
+              {openingImgs.map((openingImg) => (
+                <Carousel.Item>
+                  <img className="opening-img" src={openingImg} alt="happy-math-img" />
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <h3 className="accord-title">
+              Click on Each Topic For More Information
+            </h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Accordion defaultActiveKey={["0"]} alwaysOpen>
+              {programDetails.map((programDetail, i) => (
+                <AfterSchoolDetail {...programDetail} index={i} />
+              ))}
+            </Accordion>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}
+
+
+export default AfterSchool;
