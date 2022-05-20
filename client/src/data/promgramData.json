@@ -1,7 +1,36 @@
 [
   {
-    "path": "/after-school",
-    "title": "After-School Programs",
+    "path": "/math-tutoring",
+    "title": "Math Tutoring",
+    "openingPara": "Mina's School of Great Falls offers various after-school lessons starting at 3:00PM during the school days. We provide Math & Phonics tutoring lessons for any students who are searching for help, or if they are looking to solidfy some new concepts. We also offer Technology lessons for students who are curious about computers & have a chess club ever Friday at 3:00PM .",
+    "openingImgs": [
+      "science-img-1.jpg",
+      "science-img-2.JPG",
+      "science-img-3.JPG",
+      "science-img-4.JPG"
+    ],
+    "programDetails": [
+      {
+        "title": "Math Tutoring Lessons",
+        "description": "Mina's Elementary School offers an after-school math program."
+      },
+      {
+        "title": "Phonics Tutoring Lessons",
+        "description": "Mina's Elementary School offers an after-school phonics program."
+      },
+      {
+        "title": "Technology Tutoring Lessons",
+        "description": "Mina's Elementary School offers an after-school engineering & Technology program."
+      },
+      {
+        "title": "Chess Club",
+        "description": "Mina's Elementary School offers an after-school chess program."
+      }
+    ]
+  },
+  {
+    "path": "/phonics-tutoring",
+    "title": "Phonics Tutoring",
     "openingPara": "Mina's School of Great Falls offers various after-school lessons starting at 3:00PM during the school days. We provide Math & Phonics tutoring lessons for any students who are searching for help, or if they are looking to solidfy some new concepts. We also offer Technology lessons for students who are curious about computers & have a chess club ever Friday at 3:00PM .",
     "openingImgs": [
       "science-img-1.jpg",

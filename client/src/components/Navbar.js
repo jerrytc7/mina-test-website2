@@ -24,7 +24,7 @@ function Navbar({subjects, programs}) {
               {subjects.map(({path, title})=> <NavDropdown.Item as={Link} to={path}>{title}</NavDropdown.Item>)}
             </NavDropdown>
             <Nav.Link as={Link} to="/contact-form">Enrollment</Nav.Link>
-            <NavDropdown title="Programs" id="programs-dropdown">
+            <NavDropdown title="After-School Programs" id="programs-dropdown">
             {programs.map(({path, title})=> <NavDropdown.Item as={Link} to={path}>{title}</NavDropdown.Item>)}
             </NavDropdown>
             <NavDropdown title="Information" id="information-dropdown">
