@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ContactForm from "./components/contact/ContactForm";
-import AfterSchool from "./components/programs/AfterSchool";
+import AfterSchool from "./components/programs/Program";
 import SummerCamps from "./components/programs/SummerCamps";
 import SchoolSchedule from "./components/information/SchoolSchedule";
 import Policies from "./components/information/Policies";
@@ -18,7 +18,7 @@ import Subject from "./components/subjects/Subject";
 import Documents from "./components/information/Documents";
 import documentData from "./data/documents.json";
 import staffData from "./data/staff.json";
-import afterSchoolPrograms from "./data/afterschoolprograms.json";
+import afterSchoolPrograms from "./data/promgramData.json";
 
 
 function Wrapper({ children }) {
@@ -43,7 +43,7 @@ function App() {
   return (
     <HashRouter>
       <Wrapper>
-        <Navbar subjects={subjects}/>
+        <Navbar subjects={subjects} programs={afterSchoolPrograms}/>
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -52,7 +52,7 @@ function App() {
               path="/contact-form"
               element={<ContactForm addToast={addToast} />}
             />
-            {afterSchoolPrograms.map(({...programs})=> <Route path="/after-school" element={<AfterSchool {...programs}/>} />)}
+            {afterSchoolPrograms.map(({path,...programs})=> <Route path={path} element={<AfterSchool {...programs}/>} />)}
             <Route path="/summer-camps" element={<SummerCamps />} />
             <Route path="/school-schedule" element={<SchoolSchedule />} />
             <Route path="/documents" element={<Documents documents={documentData}/>} />

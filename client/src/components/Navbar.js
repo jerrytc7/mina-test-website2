@@ -9,7 +9,7 @@ import {
 import {Link}  from "react-router-dom"
 import "./Navbar.css";
 
-function Navbar({subjects}) {
+function Navbar({subjects, programs}) {
   return (
     <BSNavbar bg="light" expand="lg">
       <Container>
@@ -25,12 +25,7 @@ function Navbar({subjects}) {
             </NavDropdown>
             <Nav.Link as={Link} to="/contact-form">Enrollment</Nav.Link>
             <NavDropdown title="Programs" id="programs-dropdown">
-              <NavDropdown.Item as={Link} to="/after-school">
-                After School
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/summer-camps">
-                Summer Camps
-              </NavDropdown.Item>
+            {programs.map(({path, title})=> <NavDropdown.Item as={Link} to={path}>{title}</NavDropdown.Item>)}
             </NavDropdown>
             <NavDropdown title="Information" id="information-dropdown">
               <NavDropdown.Item as={Link} to="/school-schedule">

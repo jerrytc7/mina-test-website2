@@ -7,7 +7,7 @@ import {
   Card,
   Carousel,
 } from "react-bootstrap";
-import "./AfterSchool.css";
+import "./Program.css";
 
 function AfterSchoolDetail({ title, description, index }) {
   return (
