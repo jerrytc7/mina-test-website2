@@ -2,7 +2,7 @@
   {
     "path": "/math-tutoring",
     "title": "Math Tutoring",
-    "openingPara": "Mina's School of Great Falls offers various after-school lessons starting at 3:00PM during the school days. We provide Math & Phonics tutoring lessons for any students who are searching for help, or if they are looking to solidfy some new concepts. We also offer Technology lessons for students who are curious about computers & have a chess club ever Friday at 3:00PM .",
+    "openingPara": "Our mathimatics tutoring program has been helping children develop a newfound appreciation and love of math for over 17 years, and the results are there to prove it. Mina's hands-on-method of instruction not only provides student's with a visual representation of what they are learning, but also allows them to conceptually understand the material, rather than memorizing.  Whether your child is struggling or wants to stay ahead of the class, our tutoring program can accommodate any student's needs. We specialize on working with younger children, but are open to help any students looking to better themselves.",
     "openingImgs": [
       "science-img-1.jpg",
       "science-img-2.JPG",
@@ -11,20 +11,8 @@
     ],
     "programDetails": [
       {
-        "title": "Math Tutoring Lessons",
+        "title": "Math Tutoring Information",
         "description": "Mina's Elementary School offers an after-school math program."
-      },
-      {
-        "title": "Phonics Tutoring Lessons",
-        "description": "Mina's Elementary School offers an after-school phonics program."
-      },
-      {
-        "title": "Technology Tutoring Lessons",
-        "description": "Mina's Elementary School offers an after-school engineering & Technology program."
-      },
-      {
-        "title": "Chess Club",
-        "description": "Mina's Elementary School offers an after-school chess program."
       }
     ]
   },
@@ -40,20 +28,8 @@
     ],
     "programDetails": [
       {
-        "title": "Math Tutoring Lessons",
-        "description": "Mina's Elementary School offers an after-school math program."
-      },
-      {
-        "title": "Phonics Tutoring Lessons",
+        "title": "Phonics Tutoring  Information",
         "description": "Mina's Elementary School offers an after-school phonics program."
-      },
-      {
-        "title": "Technology Tutoring Lessons",
-        "description": "Mina's Elementary School offers an after-school engineering & Technology program."
-      },
-      {
-        "title": "Chess Club",
-        "description": "Mina's Elementary School offers an after-school chess program."
       }
     ]
   },

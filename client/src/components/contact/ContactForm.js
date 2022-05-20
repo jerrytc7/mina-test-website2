@@ -62,7 +62,7 @@ function ContactForm({ addToast }) {
           <Form.Label>Message</Form.Label>
           <Form.Control as="textarea" name="message" required />
         </Form.Group>
-        <Button type="submit">Submit</Button>
+        <Button variant="secondary" type="submit">Submit</Button>
       </Form>
     </Container>
   );
