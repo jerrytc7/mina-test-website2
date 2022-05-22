@@ -12,7 +12,7 @@
     "programDetails": [
       {
         "title": "Math Tutoring Information",
-        "description": "Mina's Elementary School offers an after-school math program."
+        "description": "Mina's Elementary School offers an after-school math program. We specialize with K-6 students, but our staff is confident in helping students of all ages. Starting at 3:00PM every day, our teachers/tutors provide in-depth instruction in small-sized classes in order to provide attention and effort for the student. Our hands-on method of instruction can simplify even the most complex topics for any student. Please contact us with any questions you may have, and we will be happy to help!"
       }
     ]
   },
@@ -29,7 +29,7 @@
     "programDetails": [
       {
         "title": "Phonics Tutoring  Information",
-        "description": "Mina's Elementary School offers an after-school phonics program."
+        "description": "Mina's Elementary School offers an after-school math program. We specialize with K-6 students, but our staff is confident in helping students of all ages. Starting at 3:00PM every day, our teachers/tutors provide in-depth instruction in small-sized classes in order to provide attention and effort for the student. Our hands-on method of instruction can simplify even the most complex topics for any student. Please contact us with any questions you may have, and we will be happy to help!"
       }
     ]
   },
@@ -38,19 +38,19 @@
     "title": "Summer Camps",
     "openingPara": "The camps are an excellent way for your children to prepare their math skills (basic through algebra/geometry) for the coming school year. Furthermore, they can improve their phonics skills. The camps are focused academic sessions where genuine learning takes place under the direction of Ms. Mina Kondner, the principal and director of Mina's School of Great Falls. The lessons are designed in a step-by-step process to ensure your child has a strong foundation in both math and phonics.",
     "openingImgs": [
-      "science-img-1.jpg",
-      "science-img-2.JPG",
-      "science-img-3.JPG",
-      "science-img-4.JPG"
+      "summer-camp-img-1.jpg",
+      "summer-camp-img-2.jpg",
+      "summer-camp-img-3.jpg",
+      "summer-camp-img-4.jpg"
     ],
     "programDetails": [
       {
         "title": "Math Camps",
-        "description": "Mina's Elementary School offers an after-school math program."
+        "description": "Mina's Elementary School offers a Math Summer Camp. The July summer camp runs from July 5th - July 22nd, with Camp A being from 2-4 PM, and Camp B being from 4-6 PM. The August summer camp runs from August 1st - August 19th, with Camp C being from 2-4 PM and Camp D being from 4-6 PM. Please reach out for more information regarding pricing or more details."
       },
       {
         "title": "Phonics Camps",
-        "description": "Mina's Elementary School offers an after-school phonics program."
+        "description": "Mina's Elementary School offers a Phonics Summer Camp. The July summer camp runs from July 5th - July 22nd, with Camp A being from 2-4 PM, and Camp B being from 4-6 PM. The August summer camp runs from August 1st - August 19th, with Camp C being from 2-4 PM and Camp D being from 4-6 PM. Please reach out for more information regarding pricing or more details."
       },
       {
         "title": "Camp Dates and Times",
