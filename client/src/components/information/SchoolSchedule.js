@@ -23,6 +23,9 @@ function SchoolSchedule() {
   return (
     <Container>
       <Row>
+        <Col><h3>School & Camp Calendar</h3></Col>
+      </Row>
+      <Row>
         <Col>
           <div>
             <Calendar
