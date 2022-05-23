@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ContactForm from "./components/contact/ContactForm";
 import AfterSchool from "./components/programs/Program";
-import SummerCamps from "./components/programs/SummerCamps";
 import SchoolSchedule from "./components/information/SchoolSchedule";
 import Policies from "./components/information/Policies";
 import Staff from "./components/about-us/Staff";
@@ -13,13 +12,12 @@ import { useLayoutEffect, useState } from "react";
 import { Container, ToastContainer } from "react-bootstrap";
 import { v4 as uuid } from "uuid";
 import Toast from "./components/Toast";
-import subjects from "./data/subjects.json"
+import subjects from "./data/subjects.json";
 import Subject from "./components/subjects/Subject";
 import Documents from "./components/information/Documents";
 import documentData from "./data/documents.json";
 import staffData from "./data/staff.json";
 import afterSchoolPrograms from "./data/promgramData.json";
-
 
 function Wrapper({ children }) {
   const location = useLocation();
@@ -43,21 +41,27 @@ function App() {
   return (
     <HashRouter>
       <Wrapper>
-        <Navbar subjects={subjects} programs={afterSchoolPrograms}/>
+        <Navbar subjects={subjects} programs={afterSchoolPrograms} />
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
-            {subjects.map(({path,...subject})=> <Route path={path} element={<Subject {...subject} />} />)}
+            {subjects.map(({ path, ...subject }) => (
+              <Route path={path} element={<Subject {...subject} />} />
+            ))}
             <Route
               path="/contact-form"
               element={<ContactForm addToast={addToast} />}
             />
-            {afterSchoolPrograms.map(({path,...programs})=> <Route path={path} element={<AfterSchool {...programs}/>} />)}
-            <Route path="/summer-camps" element={<SummerCamps />} />
+            {afterSchoolPrograms.map(({ path, ...programs }) => (
+              <Route path={path} element={<AfterSchool {...programs} />} />
+            ))}
             <Route path="/school-schedule" element={<SchoolSchedule />} />
-            <Route path="/documents" element={<Documents documents={documentData}/>} />
+            <Route
+              path="/documents"
+              element={<Documents documents={documentData} />}
+            />
             <Route path="/policies" element={<Policies />} />
-            <Route path="/staff" element={<Staff staffData={staffData}/>} />
+            <Route path="/staff" element={<Staff staffData={staffData} />} />
             <Route path="/philosophies" element={<Philosophies />} />
           </Routes>
           <div className="position-relative">
