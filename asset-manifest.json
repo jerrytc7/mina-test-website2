@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mina-test-website2/static/css/main.52eafb01.css",
-    "main.js": "/mina-test-website2/static/js/main.a9974cd0.js",
+    "main.css": "/mina-test-website2/static/css/main.69b10b25.css",
+    "main.js": "/mina-test-website2/static/js/main.615c5f94.js",
     "static/media/hero-image.gif": "/mina-test-website2/static/media/hero-image.1b9c813b22d768f152d1.gif",
     "index.html": "/mina-test-website2/index.html",
-    "main.52eafb01.css.map": "/mina-test-website2/static/css/main.52eafb01.css.map",
-    "main.a9974cd0.js.map": "/mina-test-website2/static/js/main.a9974cd0.js.map"
+    "main.69b10b25.css.map": "/mina-test-website2/static/css/main.69b10b25.css.map",
+    "main.615c5f94.js.map": "/mina-test-website2/static/js/main.615c5f94.js.map"
   },
   "entrypoints": [
-    "static/css/main.52eafb01.css",
-    "static/js/main.a9974cd0.js"
+    "static/css/main.69b10b25.css",
+    "static/js/main.615c5f94.js"
   ]
 }
