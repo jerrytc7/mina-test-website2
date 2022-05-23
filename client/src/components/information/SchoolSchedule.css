@@ -1,22 +1,58 @@
+.tile-F {
+  background: peachpuff;
+}
+
+.tile-ER {
+  background: peachpuff;
+}
+
+.tile-QE {
+  background: peachpuff;
+}
+
+.tile-YE {
+  background: peachpuff;
+}
+
+.tile-O {
+  background: rgb(255, 185, 55);
+}
+
+.tile-SD {
+  background: lightcoral;
+}
+
+.tile-SP {
+  background: lightcoral;
+}
+
+.tile-TW {
+  background: lightcoral;
+}
+
 .tile-H {
-    background: blue;
-  }
-  
-  .tile-TW {
-    background: red;
-  }
+  background:lightskyblue;
+}
 
-  .legend-desc{
-    width: 100%;
-    white-space: nowrap;
-  }
+.tile-NT {
+  background: lightseagreen;
+}
 
-  .legend-desc p{
-    display: inline-block;
-    margin-bottom: 0;
-  }
+.tile-CP {
+  background:greenyellow;
+}
 
-  .calendar{
-    height: 100%;
-    width: 100%;
-  }
+.legend-desc {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.legend-desc p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.calendar {
+  height: 100%;
+  width: 100%;
+}
