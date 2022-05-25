@@ -6,10 +6,10 @@ import {
   NavDropdown,
   Image,
 } from "react-bootstrap";
-import {Link}  from "react-router-dom"
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar({subjects, programs}) {
+function Navbar({ subjects, programs }) {
   return (
     <BSNavbar bg="light" expand="lg">
       <Container>
@@ -19,28 +19,60 @@ function Navbar({subjects, programs}) {
         <BSNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BSNavbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
             <NavDropdown title="School Curricula" id="curricula-dropdown">
-              {subjects.map(({path, title})=> <NavDropdown.Item as={Link} to={path}>{title}</NavDropdown.Item>)}
+              {subjects.map(({ path, title }) => (
+                <NavDropdown.Item as={Link} to={path}>
+                  {title}
+                </NavDropdown.Item>
+              ))}
             </NavDropdown>
-            <Nav.Link as={Link} to="/contact-form">Enrollment</Nav.Link>
+            <Nav.Link as={Link} to="/contact-form">
+              Enrollment
+            </Nav.Link>
             <NavDropdown title="After-School Programs" id="programs-dropdown">
-            {programs.map(({path, title})=> <NavDropdown.Item as={Link} to={path}>{title}</NavDropdown.Item>)}
+              {programs.map(({ path, title }) => (
+                <NavDropdown.Item as={Link} to={path}>
+                  {title}
+                </NavDropdown.Item>
+              ))}
             </NavDropdown>
             <NavDropdown title="Information" id="information-dropdown">
               <NavDropdown.Item as={Link} to="/school-schedule">
                 School Schedule
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/documents">Documents</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/policies">Policies</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/documents">
+                Documents
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/policies">
+                Policies
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="about-us-dropdown">
-              <NavDropdown.Item as={Link} to="/staff">Staff</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/staff">
+                Staff
+              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/philosophies">
                 Philosophies
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/contact-form">Contact Us</Nav.Link>
+            <Nav.Link as={Link} to="/contact-form">
+              Contact Us
+            </Nav.Link>
+          </Nav>
+          <Nav className="justify-content-end" activeKey="/home">
+            <Nav.Item>
+              <Nav.Link className="justify-content-end" as={Link} to="/sign-up">
+                Sign-Up
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link className="justify-content-end" as={Link} to="/sign-in">
+                Sign-In
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </BSNavbar.Collapse>
       </Container>

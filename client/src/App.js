@@ -18,6 +18,8 @@ import Documents from "./components/information/Documents";
 import documentData from "./data/documents.json";
 import staffData from "./data/staff.json";
 import afterSchoolPrograms from "./data/promgramData.json";
+import SignUp from "./components/SignUp";
+import SignIn from "./components/SignIn";
 
 function Wrapper({ children }) {
   const location = useLocation();
@@ -63,6 +65,8 @@ function App() {
             <Route path="/policies" element={<Policies />} />
             <Route path="/staff" element={<Staff staffData={staffData} />} />
             <Route path="/philosophies" element={<Philosophies />} />
+            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/sign-in" element={<SignIn />} />
           </Routes>
           <div className="position-relative">
             <ToastContainer position="bottom-center">
