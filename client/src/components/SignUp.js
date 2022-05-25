@@ -1,26 +1,43 @@
 import React, { useState } from "react";
+import axios from "axios";
 import { Container, Row, Col, Card, Button, Form } from "react-bootstrap";
 import "./SignUp.css";
 
 function SignUp() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [enteredFirstName, setEnteredFirstName] = useState("");
+  const [enteredLastName, setEnteredLastName] = useState("");
+  const [enteredEmail, setEnteredEmail] = useState("");
+  const [enteredPassword, setEnteredPassword] = useState("");
 
   const firstNameChangeHandler = (e) => {
-    setFirstName(e.target.value);
-    console.log(firstName);
+    setEnteredFirstName(e.target.value);
   };
   const lastNameChangeHandler = (e) => {
-    setLastName(e.target.value)
+    setEnteredLastName(e.target.value)
   };
   const emailChangeHandler = (e) => {
-    setEmail(e.target.value)
+    setEnteredEmail(e.target.value)
   };
   const passwordChangeHandler = (e) => {
-    setPassword(e.target.value)
+    setEnteredPassword(e.target.value)
   };
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+
+    const userData = {
+      firstName: enteredFirstName,
+      lastName: enteredLastName,
+      email: enteredEmail,
+      password: enteredPassword
+    }
+    axios.post('http://localhost:3001/api/user', userData)
+    .then(res => console.log(res.data))
+    setEnteredFirstName('')
+    setEnteredLastName('')
+    setEnteredEmail('')
+    setEnteredPassword('')
+  }
 
   return (
     <Container>
@@ -33,11 +50,11 @@ function SignUp() {
             <Card.Body>
               <Card.Title>Sign-Up Below</Card.Title>
               <Card.Text>
-                <Form>
+                <Form onSubmit={submitHandler}>
                   <Form.Group className="mb-3" controlId="formFirstName">
                     <Form.Label>First Name</Form.Label>
                     <Form.Control
-                      value={firstName}
+                      value={enteredFirstName}
                       onChange={firstNameChangeHandler}
                       type="text"
                       placeholder="Enter First Name"
@@ -46,7 +63,7 @@ function SignUp() {
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Last Name</Form.Label>
                     <Form.Control
-                      value={lastName}
+                      value={enteredLastName}
                       onChange={lastNameChangeHandler}
                       type="text"
                       placeholder="Enter Last Name"
@@ -55,7 +72,7 @@ function SignUp() {
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control
-                      value={email}
+                      value={enteredEmail}
                       onChange={emailChangeHandler}
                       type="email"
                       placeholder="Enter email"
@@ -64,7 +81,7 @@ function SignUp() {
                   <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
                     <Form.Control
-                      value={password}
+                      value={enteredPassword}
                       onChange={passwordChangeHandler}
                       type="password"
                       placeholder="Password"
