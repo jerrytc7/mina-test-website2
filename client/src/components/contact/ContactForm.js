@@ -33,37 +33,40 @@ function ContactForm({ addToast }) {
         </Col>
       </Row>
       <Row>
-      <Col>
+        <Col>
           <p>
             If you are interested in enrolling in our school, getting more
-            information regarding our after-school programs, or have some questions about our summer camps,
-            please send a contact request below and we will respond shortly!
+            information regarding our after-school programs, or have some
+            questions about our summer camps, please send a contact request
+            below and we will respond shortly!
           </p>
         </Col>
       </Row>
-      <Form onSubmit={sendEmail} ref={form}>
-        <Form.Group controlId="firstName">
-          <Form.Label>First Name</Form.Label>
-          <Form.Control name="firstName" required />
-        </Form.Group>
-        <Form.Group controlId="lastName">
-          <Form.Label>Last Name</Form.Label>
-          <Form.Control name="lastName" required />
-        </Form.Group>
-        <Form.Group controlId="email">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" name="email" required />
-        </Form.Group>
-        <Form.Group controlId="phoneNumber">
-          <Form.Label>Phone Number</Form.Label>
-          <Form.Control type="tel" name="phoneNumber" required />
-        </Form.Group>
-        <Form.Group controlId="message">
-          <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" name="message" required />
-        </Form.Group>
-        <Button variant="secondary" type="submit">Submit</Button>
-      </Form>
+        <Form onSubmit={sendEmail} ref={form}>
+          <Form.Group controlId="firstName">
+            <Form.Label>First Name</Form.Label>
+            <Form.Control name="firstName" required />
+          </Form.Group>
+          <Form.Group controlId="lastName">
+            <Form.Label>Last Name</Form.Label>
+            <Form.Control name="lastName" required />
+          </Form.Group>
+          <Form.Group controlId="email">
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="email" name="email" required />
+          </Form.Group>
+          <Form.Group controlId="phoneNumber">
+            <Form.Label>Phone Number</Form.Label>
+            <Form.Control type="tel" name="phoneNumber" required />
+          </Form.Group>
+          <Form.Group controlId="message">
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" name="message" required />
+          </Form.Group>
+          <Button variant="secondary" type="submit">
+            Submit
+          </Button>
+        </Form>
     </Container>
   );
 }

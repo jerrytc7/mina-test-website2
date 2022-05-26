@@ -20,6 +20,7 @@ import staffData from "./data/staff.json";
 import afterSchoolPrograms from "./data/promgramData.json";
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
+import Footer from "./components/Footer";
 
 function Wrapper({ children }) {
   const location = useLocation();
@@ -78,6 +79,7 @@ function App() {
             </ToastContainer>
           </div>
         </Container>
+        <Footer />
       </Wrapper>
     </HashRouter>
   );
