@@ -45,6 +45,7 @@ function App() {
     <HashRouter>
       <Wrapper>
         <Navbar subjects={subjects} programs={afterSchoolPrograms} />
+        <div className="footer-padding">
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -79,6 +80,7 @@ function App() {
             </ToastContainer>
           </div>
         </Container>
+        </div>
         <Footer />
       </Wrapper>
     </HashRouter>

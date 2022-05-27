@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" fixed="bottom" >
         <Container fluid>
           <Navbar.Text>Mina's School of Great Falls</Navbar.Text>
             <Nav className="justify-content-end">
