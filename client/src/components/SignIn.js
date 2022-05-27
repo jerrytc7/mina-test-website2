@@ -1,16 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card, Button, Form } from "react-bootstrap";
-import "./SignIn.css";
 
 function SignIn() {
   return (
     <Container>
       <Row>
-        <h1 className="title">Sign-In</h1>
-      </Row>
-      <Row>
         <Col>
-          <Card className="text-center">
+          <Card>
             <Card.Body>
               <Card.Title>Sign-In Below</Card.Title>
               <Card.Text>

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Container, Row, Col, Card, Button, Form } from "react-bootstrap";
-import "./SignUp.css";
 
 function SignUp() {
   const [enteredFirstName, setEnteredFirstName] = useState("");
@@ -42,16 +41,13 @@ function SignUp() {
   return (
     <Container>
       <Row>
-        <h1 className="title">Sign-Up</h1>
-      </Row>
-      <Row>
         <Col>
-          <Card className="text-center">
+          <Card >
             <Card.Body>
               <Card.Title>Sign-Up Below</Card.Title>
               <Card.Text>
                 <Form onSubmit={submitHandler}>
-                  <Form.Group className="mb-3" controlId="formFirstName">
+                  <Form.Group className="mb-3" controlId="formFirstName" >
                     <Form.Label>First Name</Form.Label>
                     <Form.Control
                       value={enteredFirstName}
@@ -91,7 +87,7 @@ function SignUp() {
                       sign-in in the future!
                     </Form.Text>
                   </Form.Group>
-                  <Button variant="secondary" type="submit">
+                  <Button variant="secondary" type="submit" className="mb-3">
                     Sign-Up
                   </Button>
                 </Form>
