@@ -15,7 +15,6 @@ function Home() {
         <Row>
           <Col>
             <div className="hero-image"></div>
-            
           </Col>
         </Row>
         <Row>
