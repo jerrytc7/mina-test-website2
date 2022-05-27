@@ -58,7 +58,7 @@ function Testimonials() {
             <img
               className="d-block w-100 testimonial-image"
               src="greybackground.avif"
-              alt="First slide"
+              alt="Opening-Imgs"
             />
             <Carousel.Caption>
               <Testimonial review={d} />

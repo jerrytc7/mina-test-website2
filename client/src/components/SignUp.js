@@ -40,8 +40,8 @@ function SignUp() {
 
   return (
     <Container>
-      <Row>
-        <Col>
+      <Row className="justify-content-md-center">
+        <Col lg={4}>
           <Card >
             <Card.Body>
               <Card.Title>Sign-Up Below</Card.Title>
@@ -66,7 +66,7 @@ function SignUp() {
                     />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label>Email Address</Form.Label>
                     <Form.Control
                       value={enteredEmail}
                       onChange={emailChangeHandler}
