@@ -171,7 +171,7 @@
     "path": "/art",
     "title": "Art",
     "openingPara": "Mina's School of Great Falls has an incredibly diverse art program in which students are exposed to and educated in numerous different styles of art. Not only are the students presented the history of art, but there are numerous different projects administered throughout the year in which students can draw/create some of their own works! ",
-    "openingImgs": ["art-pic.jpg"],
+    "openingImgs": ["art-img-1.jpg", "art-img-2.jpg", "art-img-3.jpg", "art-img-4.jpg"],
     "subjectDetails": [
       {
         "title": "Drawing & Painting",
